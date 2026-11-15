@@ -21,8 +21,11 @@
 | **⌘T** | Switch between matching titles only and titles plus note text *(1.3+)* |
 | **⌘S** | Change the sort order: best match, last updated, newest, largest *(1.4+)* |
 | **⌘D** | Star or unstar the selected note as a favourite *(1.4+)* |
+| **⇧⌘D** | Save the search you are typing. It appears starred at the top of the History tab *(1.7+)* |
 | **⌘N** | Create a new note in Notes, titled with whatever you have typed. macOS asks for permission the first time *(1.4+)* |
 | **⇧⌘C** | Copy a link to the selected note. Opening the link shows that note in Notes |
+| **⌥⌘C** | Copy the selected note's title *(1.7+)* |
+| **⌃⌘C** | Copy a Markdown link to the selected note, `[title](link)` *(1.7+)* |
 | **⌘R** | Reload notes |
 | **Esc** | Clear the search box. If it is already empty, close the popup |
 | **⌘W** | Close the popup |
@@ -44,6 +47,7 @@ The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 | Shortcut | Action |
 | --- | --- |
 | **Return** | Run the highlighted search again |
+| **⌘D** | Save or unsave the highlighted search *(1.7+)* |
 | **⌘⌫** | Remove the highlighted search from the history |
 
 ## Menu-bar icon

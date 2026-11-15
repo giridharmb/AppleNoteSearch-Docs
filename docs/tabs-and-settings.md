@@ -56,6 +56,10 @@ Your last 50 searches, newest first. A search is remembered when you open a note
 popup with it still typed. Press **Return** to run one again, **⌘⌫** to remove it. Type to filter the list.
 You can stop NoteSearch remembering searches, or clear them all, in Settings.
 
+From version 1.7, **⌘D** saves the highlighted search (and **⇧⌘D** saves the one you are typing on the Search
+tab). Saved searches show a star, stay at the top, and are kept when you clear the history. **⌘D** again unsaves
+one.
+
 ![Search history](images/history.png)
 
 ## Settings
@@ -65,10 +69,12 @@ You can stop NoteSearch remembering searches, or clear them all, in Settings.
 | Setting | What it does | Default |
 | --- | --- | --- |
 | **Color theme** | System (follows light/dark mode), Light, Dark, Notes Yellow, Solarized Light, Midnight, Nord, Dracula, Solarized Dark | System |
+| **Text size** | Small, Default, Large or Extra large, for the lists and tabs in the popup *(1.7+)* | Default |
 | **Global shortcut** | Click **Record**, then press the combination you want. It must include Control, Option or Command. Esc cancels. **Disable** turns the shortcut off | ⌃⌥N |
 | **Notes shown in Updated / Created / Largest** | How many notes those tabs list, from 5 to 500 | 50 |
 | **Search inside note text** | Also match plain words against the text of your notes. See [Privacy](privacy.md) *(1.3+)* | Off |
 | **Show the matching line for text matches** | While searching inside note text, shows the one line that matched under each result *(1.4+)* | Off |
+| **Added to every search** | Search terms applied to every list, for example `-in:archive` to hide a folder. See [Search syntax](search-syntax.md#hiding-a-folder-or-an-account-everywhere-17) *(1.7+)* | Empty |
 | **Close popup after opening a note** | Off keeps the popup open after Return | On |
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
 | **Launch at login** | Start NoteSearch when you log in | Off |
@@ -76,6 +82,13 @@ You can stop NoteSearch remembering searches, or clear them all, in Settings.
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
 | **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |
+
+**Popup size** *(1.7+)*: drag any edge of the popup to resize it. The size is remembered.
+
+**Updating** *(1.7+)*: when a newer version exists, a notice appears above the results. **Download and open** saves
+the new disk image to your Downloads folder and opens it; drag NoteSearch to Applications as usual.
+
+**VoiceOver** *(1.7+)*: results, tabs and the buttons at the top of the popup have spoken labels.
 
 If another app already uses the shortcut you recorded, a red message appears under the setting. Record a
 different one.

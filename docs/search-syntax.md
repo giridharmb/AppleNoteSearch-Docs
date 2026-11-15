@@ -16,6 +16,9 @@ ignored, so `cafe` finds "Café".
 | `is:checklist` | Notes that contain a checklist | |
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
 | `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
+| `is:untagged` | Notes with no hashtags *(1.7+)* | |
+| `is:shared` | Notes you share with other people, or that sit directly in a shared folder *(1.7+)* | |
+| `size:` | Notes whose text is at least, or smaller than, a size. Units `k` and `m` *(1.7+)* | `size:>100k`, `size:<2m` |
 | `updated:when` | Notes last changed in that period. See [Dates](#dates-14) *(1.4+)* | `updated:7d` |
 | `created:when` | Notes created in that period *(1.4+)* | `created:2026-03` |
 | `before:when` / `after:when` | Notes last changed before / after that period *(1.4+)* | `before:2026` |
@@ -65,6 +68,18 @@ is remembered.
 ![Results sorted by size](images/sort.png)
 
 *`plan`, sorted by largest.*
+
+## Saved searches *(1.7+)*
+
+Press **⇧⌘D** to save the search you are typing. Saved searches appear with a star at the top of the
+[History tab](tabs-and-settings.md#history-13) and are never pushed out by newer searches. On the History tab,
+**⌘D** saves or unsaves the highlighted entry and **Return** runs it.
+
+## Hiding a folder or an account everywhere *(1.7+)*
+
+In Settings, **Added to every search** takes ordinary search terms and applies them to every list. For example,
+`-in:archive` hides everything in a folder called "Archive", and `-account:work` hides a whole account. Clear the
+field to see everything again. Hashtag counts on the Tags tab are not affected.
 
 ## Favourites *(1.4+)*
 

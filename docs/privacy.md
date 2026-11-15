@@ -45,6 +45,9 @@ for this project's latest release and reads the version number from the reply. T
 you, your Mac or your notes. To stop it, turn off **Check for updates once a day** in Settings; NoteSearch then
 makes no network connections at all.
 
+From version 1.7, clicking **Download and open** on the update notice downloads the new version's disk image from
+this project's GitHub releases to your Downloads folder. This happens only when you click it.
+
 ## What it stores
 
 Only its own preferences, on your Mac:
@@ -53,6 +56,7 @@ Only its own preferences, on your Mac:
 - Identifiers of the last 30 notes you opened through NoteSearch, so they can be listed first. These are internal
   IDs, not titles or text.
 - Your last 50 searches, for the History tab *(1.3+)*. You can turn this off or clear it in Settings.
+- Your saved searches, and the terms in **Added to every search** *(1.7+)*.
 - Identifiers of the notes you starred as favourites *(1.4+)*. Internal IDs again, not titles or text.
 - The latest version number seen by the update check, and when it last ran *(1.4+)*.
 
