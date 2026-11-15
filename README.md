@@ -47,3 +47,8 @@ a `#hashtag` or a folder name, press Return, and the note opens in Notes.
 
 - Something not working? Check [Troubleshooting](docs/troubleshooting.md) first.
 - Found a bug or have an idea? [Open an issue](../../issues/new/choose).
+
+## License
+
+This documentation is © 2026 giridharmb and licensed under [CC BY 4.0](LICENSE): you may copy and adapt it if you
+give credit. The license covers the documentation in this repository only, not the NoteSearch app.
