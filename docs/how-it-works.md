@@ -25,8 +25,8 @@ By default the text of your notes is not requested at all. For size, NoteSearch 
 bytes is this?", not for the bytes themselves.
 
 From version 1.3 you can turn on **Search inside note text** (Settings, or **⌘T**). NoteSearch then also reads the
-text of each note into memory so that plain words can match it. The text is never written to disk and never shown;
-a matching row is only marked "in text". Locked notes are encrypted and are never read. Text is decoded on all
+text of each note into memory so that plain words can match it. The text is never written to disk; a matching row
+is only marked "in text", unless you also choose to show the matching line. Locked notes are encrypted and are never read. Text is decoded on all
 processor cores and remembered until a note changes, so reopening the popup re-reads only edited notes. In our
 tests a library of about 3,000 notes loaded with its text in under a fifth of a second. macOS protects this file, which is why NoteSearch needs
 [Full Disk Access](getting-started.md#grant-full-disk-access-required-one-time).
@@ -50,7 +50,8 @@ Upper/lower case and accents are ignored, so `cafe` finds "Café".
 ## 3. Notes opens the note
 
 When you press **Return**, NoteSearch hands the note's internal ID to macOS, and the Notes app opens it.
-NoteSearch never opens, changes or deletes a note itself.
+NoteSearch never opens, changes or deletes a note itself. Pressing **⌘N** *(1.4+)* likewise asks the Notes app to
+create the new note.
 
 ## What is searched, and what is not
 

@@ -28,8 +28,10 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Keyboard first**: a global shortcut, arrow keys and Return. No mouse needed.
 - **Search inside note text, if you want it**: off by default; one switch (or ⌘T) turns it on *(1.3+)*.
 - **Search history** and **multi-select hashtags** with live note counts *(1.3+)*.
+- **Date filters, sort order, favourites** and a **new-note shortcut** *(1.4+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
-  in memory only, and is never shown or saved. NoteSearch never connects to the network.
+  in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
+  check for a newer version, which sends nothing about you or your notes.
 - **Nine colour themes** and a handful of useful options.
 
 ## Screenshots
@@ -40,6 +42,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | ![Typo-tolerant search with folder autocomplete](docs/images/typo.png) <br> A typo still finds the note; folders autocomplete too | ![Largest notes tab](docs/images/largest.png) <br> Largest notes (Dracula theme) |
 | ![Notes with PDF attachments](docs/images/attachments.png) <br> Notes with a PDF attached: `is:attachment pdf` | ![Notes in a folder and its sub-folders](docs/images/folders.png) <br> A folder and its sub-folders: `in:work` (Solarized Dark theme) |
 | ![Search inside note text](docs/images/text.png) <br> Searching inside note text, when turned on | ![Selecting several hashtags](docs/images/tags-multi.png) <br> Ticking several hashtags shows how many notes have all or any |
+| ![Notes changed in the last week](docs/images/dates.png) <br> Date filter: `updated:7d` | ![The matching line of text](docs/images/snippet.png) <br> Optional: the line of text that matched |
 | ![Search history](docs/images/history.png) <br> History of past searches | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) |
 | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) | |
 
@@ -68,6 +71,8 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | `in:travel` | Notes in a folder whose name contains "travel" |
 | `is:pinned` | Pinned notes (`is:locked`, `is:checklist` also work) |
 | `is:attachment` | Notes that have attachments *(1.1+)* |
+| `updated:7d` | Notes changed in the last 7 days *(1.4+)* |
+| `is:favorite` | Notes you starred with ⌘D *(1.4+)* |
 
 ## Help and feedback
 

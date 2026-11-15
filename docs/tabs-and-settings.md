@@ -6,7 +6,7 @@ Switch tabs with **⌘1 … ⌘7**, by clicking, or with **Tab** when no autocom
 
 | Tab | Shows |
 | --- | --- |
-| **Search** (⌘1) | Everything that matches, best match first. Empty search: recently opened notes, then recently updated |
+| **Search** (⌘1) | Everything that matches, best match first (⌘S changes the order). Empty search: favourites, then recently opened notes, then recently updated |
 | **Updated** (⌘2) | The most recently updated notes |
 | **Created** (⌘3) | The most recently created notes |
 | **Largest** (⌘4) | The largest notes |
@@ -35,7 +35,8 @@ included, so a note with many images can still look small.
 
 ### Tags
 
-Every hashtag in your notes, most used first, each with its note count. Type to filter the list.
+Every hashtag in your notes, most used first, each with its note count. Type to filter the list. **⌘S** switches
+between most used first and A–Z *(1.4+)*.
 
 - **One hashtag:** highlight it and press **Return** to search for it.
 - **Several hashtags** *(1.3+)*: press **Space** (or click) to tick each one. A bar appears showing how many notes
@@ -67,9 +68,11 @@ You can stop NoteSearch remembering searches, or clear them all, in Settings.
 | **Global shortcut** | Click **Record**, then press the combination you want. It must include Control, Option or Command. Esc cancels. **Disable** turns the shortcut off | ⌃⌥N |
 | **Notes shown in Updated / Created / Largest** | How many notes those tabs list, from 5 to 500 | 50 |
 | **Search inside note text** | Also match plain words against the text of your notes. See [Privacy](privacy.md) *(1.3+)* | Off |
+| **Show the matching line for text matches** | While searching inside note text, shows the one line that matched under each result *(1.4+)* | Off |
 | **Close popup after opening a note** | Off keeps the popup open after Return | On |
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
 | **Launch at login** | Start NoteSearch when you log in | Off |
+| **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
 | **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |

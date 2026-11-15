@@ -15,6 +15,10 @@ ignored, so `cafe` finds "Café".
 | `is:locked` | Locked notes | |
 | `is:checklist` | Notes that contain a checklist | |
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
+| `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
+| `updated:when` | Notes last changed in that period. See [Dates](#dates-14) *(1.4+)* | `updated:7d` |
+| `created:when` | Notes created in that period *(1.4+)* | `created:2026-03` |
+| `before:when` / `after:when` | Notes last changed before / after that period *(1.4+)* | `before:2026` |
 
 Folder and account names are matched with spaces removed. For a folder called "Work Projects", type
 `in:workprojects` or just `in:work`.
@@ -34,13 +38,47 @@ Only file names are used, never what is inside the files.
 
 ![Notes with PDF attachments](images/attachments.png)
 
+## Dates *(1.4+)*
+
+`updated:`, `created:`, `before:` and `after:` take a period written in one of these ways:
+
+| You write | Period |
+| --- | --- |
+| `7d`, `2w`, `3m`, `1y` | The last 7 days, 2 weeks, 3 months, 1 year, up to now |
+| `today`, `yesterday` | That day |
+| `2026` | The whole year |
+| `2026-03` | The whole month |
+| `2026-03-15` | That day |
+
+- `updated:7d` finds notes changed in the last week; `created:2026` finds notes created during 2026.
+- `before:2026` finds notes last changed before 1 January 2026; `after:2026-03` finds notes changed after March 2026.
+- Combine them like any other term: `#work updated:1m -is:locked`, or `updated:today|updated:yesterday`.
+
+![Notes changed in the last week](images/dates.png)
+
+## Sort order *(1.4+)*
+
+The Search tab normally lists the best match first. Press **⌘S**, or click the sort label at the top right, to
+switch between **best match**, **last updated**, **newest** (most recently created) and **largest**. Your choice
+is remembered.
+
+![Results sorted by size](images/sort.png)
+
+*`plan`, sorted by largest.*
+
+## Favourites *(1.4+)*
+
+Press **⌘D** on a note to star it; press again to remove the star. Starred notes show a star, are listed first
+when the search box is empty, and are found by `is:favorite`.
+
 ## Searching inside note text *(1.3+)*
 
 By default plain words match titles, folder names, hashtags and attachment file names. To also match the text
 inside notes, turn on **Search inside note text** in Settings, press **⌘T**, or click the "titles" label at the
 top right of the popup; it changes to "titles + text".
 
-- A note found through its text is marked **in text** on its row. The text itself is not shown.
+- A note found through its text is marked **in text** on its row. The text itself is not shown, unless you turn on
+  **Show the matching line for text matches** in Settings *(1.4+)*, which adds the one line that matched.
 - Title matches still rank above text matches.
 - Text matching is exact (after ignoring case and accents). The fuzzy and typo fallbacks apply to titles only.
 - Locked notes are never read, so their text cannot be searched.
@@ -48,6 +86,10 @@ top right of the popup; it changes to "titles + text".
 ![Searching inside note text](images/text.png)
 
 *With "titles + text" on, `invoice` finds notes that mention an invoice even though their titles do not.*
+
+![The matching line shown under each result](images/snippet.png)
+
+*The same search with "Show the matching line" turned on.*
 
 ## Combining terms
 

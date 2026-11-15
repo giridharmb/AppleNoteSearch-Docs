@@ -67,6 +67,16 @@ This happened in version 1.0 when the popup had not been clicked: it floated abo
 dismissed. Click once inside the popup and press **Esc**, or quit NoteSearch from its menu-bar icon, grant Full
 Disk Access, and open it again. Version 1.1 hides the popup as soon as you click anywhere else.
 
+## ⌘N does not create a note
+
+The first time you press **⌘N**, macOS asks whether NoteSearch may control Notes. If you chose Don't Allow, open
+**System Settings → Privacy & Security → Automation**, find NoteSearch and turn on **Notes**. The popup shows
+"New note failed" when permission is missing.
+
+## How do I turn off the update check?
+
+Open Settings (**⌘7**) and turn off **Check for updates once a day**. See [Privacy](privacy.md#network-use).
+
 ## Can it search inside notes?
 
 Yes, from version 1.3, but it is off by default. Turn on **Search inside note text** in Settings or press **⌘T**.

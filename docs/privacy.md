@@ -22,8 +22,9 @@ From version 1.3 there is an optional setting, **Search inside note text**, whic
 (in Settings, with **⌘T**, or by clicking the "titles" label in the popup). While it is on:
 
 - NoteSearch reads the text of your notes into memory so that searches can match it.
-- The text is **never written to disk** by NoteSearch and **never displayed**. A matching note is only marked
-  "in text".
+- The text is **never written to disk** by NoteSearch. A matching note is only marked "in text".
+- The text is **not displayed** unless you also turn on **Show the matching line for text matches** *(1.4+)*,
+  which shows the single line that matched under the result.
 - **Locked notes are never read.** They are encrypted, and NoteSearch does not ask for their password.
 - Turning the setting off again discards the text from memory.
 
@@ -31,7 +32,18 @@ From version 1.3 there is an optional setting, **Search inside note text**, whic
 
 - It never changes, creates or deletes notes. Access is read-only.
 - It never reads what is inside attachments.
-- It never connects to the network. Nothing leaves your Mac, and there is no analytics or telemetry.
+- It never sends anything about you or your notes anywhere. There is no analytics or telemetry.
+- It never creates a note unless you press **⌘N** *(1.4+)*, and then it is the Notes app that creates it, after
+  macOS has asked for your permission.
+
+## Network use
+
+Versions before 1.4 never connect to the network.
+
+From version 1.4, NoteSearch checks **once a day** whether a newer version exists. It asks GitHub's public address
+for this project's latest release and reads the version number from the reply. The request contains nothing about
+you, your Mac or your notes. To stop it, turn off **Check for updates once a day** in Settings; NoteSearch then
+makes no network connections at all.
 
 ## What it stores
 
@@ -41,6 +53,8 @@ Only its own preferences, on your Mac:
 - Identifiers of the last 30 notes you opened through NoteSearch, so they can be listed first. These are internal
   IDs, not titles or text.
 - Your last 50 searches, for the History tab *(1.3+)*. You can turn this off or clear it in Settings.
+- Identifiers of the notes you starred as favourites *(1.4+)*. Internal IDs again, not titles or text.
+- The latest version number seen by the update check, and when it last ran *(1.4+)*.
 
 No copy or index of your notes is saved. The list is rebuilt in memory each time the popup opens.
 To erase the stored preferences, see [How do I uninstall?](troubleshooting.md#how-do-i-uninstall).

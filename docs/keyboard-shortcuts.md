@@ -19,6 +19,9 @@
 | **⌘1 … ⌘7** | Search, Updated, Created, Largest, Tags, History, Settings *(before 1.3: ⌘1 … ⌘6, without History)* |
 | **⌘,** | Settings |
 | **⌘T** | Switch between matching titles only and titles plus note text *(1.3+)* |
+| **⌘S** | Change the sort order: best match, last updated, newest, largest *(1.4+)* |
+| **⌘D** | Star or unstar the selected note as a favourite *(1.4+)* |
+| **⌘N** | Create a new note in Notes, titled with whatever you have typed. macOS asks for permission the first time *(1.4+)* |
 | **⇧⌘C** | Copy a link to the selected note. Opening the link shows that note in Notes |
 | **⌘R** | Reload notes |
 | **Esc** | Clear the search box. If it is already empty, close the popup |
@@ -34,6 +37,7 @@ The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 | **Return** | Search for the highlighted hashtag, or for notes that have **all** the ticked hashtags |
 | **Space** | Tick or untick the highlighted hashtag *(1.3+)* |
 | **⌥Return** | Search for notes that have **any** of the ticked hashtags *(1.3+)* |
+| **⌘S** | Switch the list between most used first and A–Z *(1.4+)* |
 
 ## On the History tab *(1.3+)*
 
