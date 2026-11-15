@@ -28,11 +28,31 @@ From version 1.3 there is an optional setting, **Search inside note text**, whic
 - **Locked notes are never read.** They are encrypted, and NoteSearch does not ask for their password.
 - Turning the setting off again discards the text from memory.
 
+## Index file for iPhone and iPad *(1.5+)*
+
+From version 1.5 there is an optional setting, **Save an index for the iPhone and iPad app**, which is **off**
+unless you switch it on. While it is on:
+
+- NoteSearch saves one file, `NoteSearch-index.json`, in a **NoteSearch** folder in your iCloud Drive, and
+  rewrites it when your notes change.
+- The file lists, for each note: title, folder, account name, hashtags, created and last-updated dates, size,
+  attachment file names, and whether it is pinned, locked or has a checklist.
+- The file **never contains note text**, even when **Search inside note text** is on.
+- Titles of locked notes are included, as they are in the popup. Their text is not.
+- Because the file is in iCloud Drive, **Apple's iCloud syncs it** to your other devices, like any other file
+  there. NoteSearch itself sends it nowhere.
+- Turning the setting off stops the file being updated but does **not delete it**. To remove it, delete the
+  NoteSearch folder from iCloud Drive in Finder.
+
+The setting exists for a companion iPhone and iPad app, which is not available for download yet. Until it is,
+there is no reason to turn the setting on.
+
 ## What it never does
 
 - It never changes, creates or deletes notes. Access is read-only.
 - It never reads what is inside attachments.
-- It never sends anything about you or your notes anywhere. There is no analytics or telemetry.
+- It never sends anything about you or your notes anywhere. There is no analytics or telemetry. (The optional
+  index file above is carried to your own devices by iCloud Drive, not by NoteSearch.)
 - It never creates a note unless you press **⌘N** *(1.4+)*, and then it is the Notes app that creates it, after
   macOS has asked for your permission.
 
@@ -56,7 +76,9 @@ Only its own preferences, on your Mac:
 - Identifiers of the notes you starred as favourites *(1.4+)*. Internal IDs again, not titles or text.
 - The latest version number seen by the update check, and when it last ran *(1.4+)*.
 
-No copy or index of your notes is saved. The list is rebuilt in memory each time the popup opens.
+No copy or index of your notes is saved, unless you turn on the
+[index file for iPhone and iPad](#index-file-for-iphone-and-ipad-15). The list is rebuilt in memory each time the
+popup opens.
 To erase the stored preferences, see [How do I uninstall?](troubleshooting.md#how-do-i-uninstall).
 
 ## Diagnostics
