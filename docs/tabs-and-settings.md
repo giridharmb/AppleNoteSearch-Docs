@@ -73,7 +73,6 @@ You can stop NoteSearch remembering searches, or clear them all, in Settings.
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
 | **Launch at login** | Start NoteSearch when you log in | Off |
 | **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
-| **Save an index for the iPhone and iPad app** | Saves a list of your note titles, folders, hashtags, dates and attachment names (never note text) to **iCloud Drive › NoteSearch**. See [Privacy](privacy.md#index-file-for-iphone-and-ipad-15) *(1.5+)* | Off |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
 | **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |

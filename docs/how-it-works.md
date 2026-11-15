@@ -74,14 +74,6 @@ create the new note.
 NoteSearch re-reads the list every time the popup opens, so new, renamed and deleted notes appear without you
 doing anything. Notes created on another device appear once the Notes app on this Mac has synced them.
 
-## The index file for iPhone and iPad *(1.5+)*
-
-iOS does not let any app read the Notes library, so an iPhone or iPad app cannot do what the Mac app does. As a
-bridge, the Mac app can save a list of note titles and other details (never note text) to iCloud Drive each time
-it re-reads your notes, and only when something changed. This is off unless you turn on
-**Save an index for the iPhone and iPad app** in Settings. [Privacy](privacy.md#index-file-for-iphone-and-ipad-15)
-lists exactly what the file contains. The companion app that uses it is not available for download yet.
-
 ## A note on macOS updates
 
 The Notes database is Apple's own format and is not documented. NoteSearch checks which fields exist before

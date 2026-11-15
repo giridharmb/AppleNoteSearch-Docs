@@ -29,8 +29,6 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Search inside note text, if you want it**: off by default; one switch (or ⌘T) turns it on *(1.3+)*.
 - **Search history** and **multi-select hashtags** with live note counts *(1.3+)*.
 - **Date filters, sort order, favourites** and a **new-note shortcut** *(1.4+)*.
-- **Optional index file** in iCloud Drive (titles and details, never note text) for a companion iPhone and iPad
-  app that is not available yet. Off by default *(1.5+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
   check for a newer version, which sends nothing about you or your notes.
