@@ -21,8 +21,14 @@ of your notes. For every note it collects:
 - whether it is pinned, locked or has a checklist
 - the file names of attachments *(version 1.1 and later)*
 
-The text of your notes is never requested. For size, NoteSearch asks the database only "how many bytes is this?",
-not for the bytes themselves. macOS protects this file, which is why NoteSearch needs
+By default the text of your notes is not requested at all. For size, NoteSearch asks the database only "how many
+bytes is this?", not for the bytes themselves.
+
+From version 1.3 you can turn on **Search inside note text** (Settings, or **⌘T**). NoteSearch then also reads the
+text of each note into memory so that plain words can match it. The text is never written to disk and never shown;
+a matching row is only marked "in text". Locked notes are encrypted and are never read. Text is decoded on all
+processor cores and remembered until a note changes, so reopening the popup re-reads only edited notes. In our
+tests a library of about 3,000 notes loaded with its text in under a fifth of a second. macOS protects this file, which is why NoteSearch needs
 [Full Disk Access](getting-started.md#grant-full-disk-access-required-one-time).
 
 ## 2. It searches in memory
@@ -56,7 +62,8 @@ NoteSearch never opens, changes or deletes a note itself.
 | Notes inside nested folders, in every account | Yes, all of them |
 | Account names | Yes, with `account:` |
 | Attachment file names (PDFs, images, scans…) | Yes, from version 1.1. `is:attachment` lists notes that have any |
-| The text inside notes | **No**, by design |
+| The text inside notes | Only if you turn on **Search inside note text** *(1.3+)*. Off by default |
+| The text of locked notes | **No**, never |
 | The contents of attachments | **No** |
 | Notes in Recently Deleted | No |
 | Files and folders elsewhere on your Mac | No. NoteSearch only knows about Apple Notes |

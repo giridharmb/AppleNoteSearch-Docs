@@ -26,7 +26,8 @@ Until you do, the popup shows this message instead of your notes:
 2. Turn on **NoteSearch** in the list. If it is not listed, click **+** and choose NoteSearch from Applications.
 3. Go back to the popup and click **Retry**.
 
-NoteSearch uses this access only to read note titles and metadata. See [Privacy](privacy.md).
+NoteSearch uses this access only to read your Notes library: titles and metadata by default, and note text only
+if you turn that on. See [Privacy](privacy.md).
 
 ## Your first search
 

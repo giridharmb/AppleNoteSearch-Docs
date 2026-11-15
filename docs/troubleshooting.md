@@ -13,7 +13,7 @@ after updating the app.
 
 ## The global shortcut does nothing
 
-- Another app may be using the same combination. Open Settings (**⌘6**) and look for a red message under
+- Another app may be using the same combination. Open Settings (**⌘7**, or ⌘6 before version 1.3) and look for a red message under
   **Global shortcut**, then record a different one.
 - Check the shortcut is not disabled in Settings.
 - Make sure NoteSearch is running: its icon should be in the menu bar.
@@ -32,12 +32,13 @@ icon may be hidden behind the notch; the shortcut still works.
   match what you typed.
 - **The Updated, Created and Largest tabs show the top 50** by design. Raise the number in Settings, or use the
   Search tab to see everything.
-- **Text inside notes is not searched**, only titles, hashtags, folder names, account names and attachment file
-  names. A note you remember by its contents will not be found unless one of those matches.
+- **Text inside notes is not searched unless you turn it on.** By default only titles, hashtags, folder names,
+  account names and attachment file names are matched. From version 1.3, turn on **Search inside note text** in
+  Settings or press **⌘T**.
 - **Notes in Recently Deleted are not listed.**
 - Notes that belong to a mail account (Gmail, Exchange, IMAP) rather than iCloud or On My Mac are not supported.
 
-If notes are still missing, open Settings (**⌘6**), click **Copy diagnostics**, and paste the result into a
+If notes are still missing, open Settings (**⌘7**), click **Copy diagnostics**, and paste the result into a
 [bug report](../../../issues/new/choose). The report contains only counts, no titles or names.
 
 ## A note I just created or renamed is missing
@@ -68,8 +69,8 @@ Disk Access, and open it again. Version 1.1 hides the popup as soon as you click
 
 ## Can it search inside notes?
 
-No. NoteSearch deliberately reads titles and metadata only and never note contents. Use the search in Notes for
-that. See [How it works](how-it-works.md) for the full list of what is searched.
+Yes, from version 1.3, but it is off by default. Turn on **Search inside note text** in Settings or press **⌘T**.
+Locked notes are never read. See [How it works](how-it-works.md) for the full list of what is searched.
 
 ## Does it work with locked notes?
 

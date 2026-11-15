@@ -34,6 +34,21 @@ Only file names are used, never what is inside the files.
 
 ![Notes with PDF attachments](images/attachments.png)
 
+## Searching inside note text *(1.3+)*
+
+By default plain words match titles, folder names, hashtags and attachment file names. To also match the text
+inside notes, turn on **Search inside note text** in Settings, press **⌘T**, or click the "titles" label at the
+top right of the popup; it changes to "titles + text".
+
+- A note found through its text is marked **in text** on its row. The text itself is not shown.
+- Title matches still rank above text matches.
+- Text matching is exact (after ignoring case and accents). The fuzzy and typo fallbacks apply to titles only.
+- Locked notes are never read, so their text cannot be searched.
+
+![Searching inside note text](images/text.png)
+
+*With "titles + text" on, `invoice` finds notes that mention an invoice even though their titles do not.*
+
 ## Combining terms
 
 | You type | Meaning |

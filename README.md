@@ -26,7 +26,10 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Autocomplete** for hashtags and folders that already exist in your notes.
 - **Tabs** for the most recently updated, most recently created and largest notes, plus a list of all hashtags.
 - **Keyboard first**: a global shortcut, arrow keys and Return. No mouse needed.
-- **Private**: reads note titles and metadata only, never note contents, and never connects to the network.
+- **Search inside note text, if you want it**: off by default; one switch (or ⌘T) turns it on *(1.3+)*.
+- **Search history** and **multi-select hashtags** with live note counts *(1.3+)*.
+- **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
+  in memory only, and is never shown or saved. NoteSearch never connects to the network.
 - **Nine colour themes** and a handful of useful options.
 
 ## Screenshots
@@ -36,7 +39,9 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | ![Search combining hashtags and a title word](docs/images/search.png) <br> Either of two hashtags, plus a word in the title | ![Hashtag autocomplete](docs/images/autocomplete.png) <br> Hashtag autocomplete |
 | ![Typo-tolerant search with folder autocomplete](docs/images/typo.png) <br> A typo still finds the note; folders autocomplete too | ![Largest notes tab](docs/images/largest.png) <br> Largest notes (Dracula theme) |
 | ![Notes with PDF attachments](docs/images/attachments.png) <br> Notes with a PDF attached: `is:attachment pdf` | ![Notes in a folder and its sub-folders](docs/images/folders.png) <br> A folder and its sub-folders: `in:work` (Solarized Dark theme) |
-| ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) |
+| ![Search inside note text](docs/images/text.png) <br> Searching inside note text, when turned on | ![Selecting several hashtags](docs/images/tags-multi.png) <br> Ticking several hashtags shows how many notes have all or any |
+| ![Search history](docs/images/history.png) <br> History of past searches | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) |
+| ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) | |
 
 ## Documentation
 
