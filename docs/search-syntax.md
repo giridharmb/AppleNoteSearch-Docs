@@ -22,6 +22,18 @@ Folder and account names are matched with spaces removed. For a folder called "W
 From version 1.1, nested folders are shown with their full path ("Work › Projects") and `in:` matches any part of
 it, so `in:work` also finds notes in the sub-folders of "Work".
 
+![Notes in a folder and its sub-folders](images/folders.png)
+
+*`in:work` finds notes in "Work" and in "Work › Projects" and "Work › Writing".*
+
+## Attachments
+
+From version 1.1, a paperclip and a number show how many attachments a note has. `is:attachment` lists notes that
+have any, and plain words also match attachment file names, so `is:attachment pdf` finds notes with a PDF attached.
+Only file names are used, never what is inside the files.
+
+![Notes with PDF attachments](images/attachments.png)
+
 ## Combining terms
 
 | You type | Meaning |

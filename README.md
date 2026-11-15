@@ -35,6 +35,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | --- | --- |
 | ![Search combining hashtags and a title word](docs/images/search.png) <br> Either of two hashtags, plus a word in the title | ![Hashtag autocomplete](docs/images/autocomplete.png) <br> Hashtag autocomplete |
 | ![Typo-tolerant search with folder autocomplete](docs/images/typo.png) <br> A typo still finds the note; folders autocomplete too | ![Largest notes tab](docs/images/largest.png) <br> Largest notes (Dracula theme) |
+| ![Notes with PDF attachments](docs/images/attachments.png) <br> Notes with a PDF attached: `is:attachment pdf` | ![Notes in a folder and its sub-folders](docs/images/folders.png) <br> A folder and its sub-folders: `in:work` (Solarized Dark theme) |
 | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) |
 
 ## Documentation
