@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in NoteSearch is not working as described
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please check [Troubleshooting](https://github.com/giridharmb/AppleNoteSearch-Docs/blob/main/docs/troubleshooting.md) first.
+        **Do not paste note titles or other private information you would not want public.**
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you typed or pressed, in order. Replace private words with placeholders if needed.
+      placeholder: |
+        1. Press ⌃⌥N
+        2. Type `#work plan`
+        3. Press Return
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Search results or ranking
+        - Hashtags / autocomplete
+        - Opening a note
+        - Tabs (Updated / Created / Largest / Tags)
+        - Global shortcut or keyboard
+        - Menu bar icon or popup
+        - Settings or themes
+        - Full Disk Access / notes not loading
+        - Installation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: NoteSearch version
+      description: Shown in Finder → Applications → NoteSearch → Get Info
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: input
+    id: notes-count
+    attributes:
+      label: Roughly how many notes do you have?
+      description: Shown at the top right of the popup, for example "1,240 notes · 35 ms"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help. Blur or crop anything private. Include any error text shown in the popup.

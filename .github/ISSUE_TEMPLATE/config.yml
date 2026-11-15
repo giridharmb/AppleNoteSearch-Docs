@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Troubleshooting and FAQ
+    url: https://github.com/giridharmb/AppleNoteSearch-Docs/blob/main/docs/troubleshooting.md
+    about: Fixes for the most common problems. Please look here before opening an issue.
+  - name: Search syntax
+    url: https://github.com/giridharmb/AppleNoteSearch-Docs/blob/main/docs/search-syntax.md
+    about: How hashtags, AND / OR / exclude and folder filters work.
