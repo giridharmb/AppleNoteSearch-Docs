@@ -7,16 +7,20 @@ ignored, so `cafe` finds "Café".
 
 | Term | Matches | Example |
 | --- | --- | --- |
-| a word | Notes whose title, folder name or hashtags contain it | `budget` |
+| a word | Notes whose title, folder name, hashtags or attachment file names *(1.1+)* contain it | `budget` |
 | `#tag` | Notes with that hashtag | `#work` |
 | `in:name` | Notes in a folder whose name contains `name` (`folder:` also works) | `in:travel` |
 | `account:name` | Notes in an account whose name contains `name` (`acct:` also works) | `account:icloud` |
 | `is:pinned` | Pinned notes | |
 | `is:locked` | Locked notes | |
 | `is:checklist` | Notes that contain a checklist | |
+| `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
 
 Folder and account names are matched with spaces removed. For a folder called "Work Projects", type
 `in:workprojects` or just `in:work`.
+
+From version 1.1, nested folders are shown with their full path ("Work › Projects") and `in:` matches any part of
+it, so `in:work` also finds notes in the sub-folders of "Work".
 
 ## Combining terms
 
@@ -62,7 +66,8 @@ If a word is not found as typed, NoteSearch tries two looser matches against not
 - **Typos** (5 letters or more): one wrong, missing, extra or swapped letter is allowed, two for words of
   9 letters or more. `wrokout` finds "Workout plan".
 
-These looser matches always rank below exact matches.
+These looser matches always rank below exact matches. From version 1.1 they are tried only when nothing matches
+exactly as typed, which keeps results clean and fast.
 
 ![A typo still finds the note](images/typo.png)
 
@@ -78,8 +83,9 @@ On the **Search** tab, best matches come first:
 4. It appears inside a word in the title
 5. It matches the folder name
 6. It matches the start of a hashtag
-7. Fuzzy match
-8. Typo match
+7. It matches an attachment file name *(1.1+)*
+8. Fuzzy match
+9. Typo match
 
 Ties are ordered by most recently updated. The Search tab shows up to 300 results.
 

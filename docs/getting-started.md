@@ -44,6 +44,7 @@ recently updated notes.
 - The note title, with the letters that matched your search underlined
 - An icon: lock (locked note), pin (pinned), checklist, or plain note
 - The folder, and the account name if you use more than one account
+- A paperclip with the number of attachments, if it has any *(1.1+)*
 - The note's hashtags
 - When it was last updated, and the size of its text
 
@@ -52,5 +53,6 @@ Note contents are never shown.
 ## Next steps
 
 - [Search syntax](search-syntax.md) — hashtags, combining filters, folders
+- [How it works](how-it-works.md) — what is searched and what is not
 - [Keyboard shortcuts](keyboard-shortcuts.md)
 - [Tabs and settings](tabs-and-settings.md) — change the shortcut, theme and more

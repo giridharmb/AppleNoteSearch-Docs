@@ -12,6 +12,7 @@ For each note, from the Notes library on your Mac:
 - Created and last-updated dates
 - Size of the note's text (a number only)
 - Whether it is pinned, locked or contains a checklist
+- The file names of its attachments, from version 1.1 (never the attachments themselves)
 
 ## What it never does
 

@@ -44,10 +44,16 @@ after opening one note, use **⌘Return** instead of Return.
 Make sure the Notes app can open normally. If Notes opens but shows a different note, or nothing happens, please
 [report it](../../../issues/new/choose) with your macOS version.
 
+## The popup stays on top of System Settings while I grant access
+
+This happened in version 1.0 when the popup had not been clicked: it floated above other windows and could not be
+dismissed. Click once inside the popup and press **Esc**, or quit NoteSearch from its menu-bar icon, grant Full
+Disk Access, and open it again. Version 1.1 hides the popup as soon as you click anywhere else.
+
 ## Can it search inside notes?
 
 No. NoteSearch deliberately reads titles and metadata only and never note contents. Use the search in Notes for
-that.
+that. See [How it works](how-it-works.md) for the full list of what is searched.
 
 ## Does it work with locked notes?
 

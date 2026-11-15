@@ -45,6 +45,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | [Search syntax](docs/search-syntax.md) | Hashtags, AND / OR / exclude, folders, accounts, fuzzy and typo matching, ranking |
 | [Keyboard shortcuts](docs/keyboard-shortcuts.md) | Every key, in the popup and system-wide |
 | [Tabs and settings](docs/tabs-and-settings.md) | Updated / Created / Largest / Tags tabs, themes, options |
+| [How it works](docs/how-it-works.md) | Where results come from, what is and is not searched, speed |
 | [Troubleshooting and FAQ](docs/troubleshooting.md) | Fixes for common problems, uninstalling |
 | [Privacy](docs/privacy.md) | Exactly what is read and stored |
 
@@ -60,6 +61,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | `#work plan` | Tagged `#work` **and** "plan" in the title |
 | `in:travel` | Notes in a folder whose name contains "travel" |
 | `is:pinned` | Pinned notes (`is:locked`, `is:checklist` also work) |
+| `is:attachment` | Notes that have attachments *(1.1+)* |
 
 ## Help and feedback
 
