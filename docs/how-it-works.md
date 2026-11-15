@@ -32,7 +32,7 @@ built. Every time you type a character, NoteSearch:
 
 1. splits what you typed into terms (words, `#hashtags`, `in:folder` and so on),
 2. checks every note against those terms and gives each match a score,
-3. sorts the matches, best first, and shows them.
+3. sorts the matches, best first, and shows all of them.
 
 There is no waiting for the database while you type, which is what keeps results instant. From version 1.1 the
 checking is spread across all of your Mac's processor cores when you have more than about 2,000 notes. In our

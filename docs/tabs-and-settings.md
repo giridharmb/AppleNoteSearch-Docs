@@ -46,6 +46,7 @@ The popup always opens on the Search tab with an empty search box.
 | **Close popup after opening a note** | Off keeps the popup open after Return | On |
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
 | **Launch at login** | Start NoteSearch when you log in | Off |
+| **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |
 
 If another app already uses the shortcut you recorded, a red message appears under the setting. Record a
 different one.

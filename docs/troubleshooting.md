@@ -24,6 +24,22 @@ NoteSearch has no Dock icon and no window of its own. Look for the magnifying-gl
 the global shortcut, or open NoteSearch again from Applications to bring up the popup. On a crowded menu bar the
 icon may be hidden behind the notch; the shortcut still works.
 
+## Many notes seem to be missing
+
+- **Update to 1.2 or later.** Earlier versions listed at most 300 results on the Search tab, so with a large
+  library most notes never appeared in the list.
+- **Check the count** at the top right of the popup. "42 of 3,050 notes" means 3,050 notes were loaded and 42
+  match what you typed.
+- **The Updated, Created and Largest tabs show the top 50** by design. Raise the number in Settings, or use the
+  Search tab to see everything.
+- **Text inside notes is not searched**, only titles, hashtags, folder names, account names and attachment file
+  names. A note you remember by its contents will not be found unless one of those matches.
+- **Notes in Recently Deleted are not listed.**
+- Notes that belong to a mail account (Gmail, Exchange, IMAP) rather than iCloud or On My Mac are not supported.
+
+If notes are still missing, open Settings (**⌘6**), click **Copy diagnostics**, and paste the result into a
+[bug report](../../../issues/new/choose). The report contains only counts, no titles or names.
+
 ## A note I just created or renamed is missing
 
 NoteSearch re-reads your notes every time the popup opens. Press **⌘R** to reload while it is open. Notes that

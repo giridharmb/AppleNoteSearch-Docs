@@ -65,6 +65,12 @@ body:
       label: Roughly how many notes do you have?
       description: Shown at the top right of the popup, for example "1,240 notes · 35 ms"
   - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics (for missing notes)
+      description: In NoteSearch 1.2 or later, open Settings (⌘6), click Copy diagnostics and paste here. It contains only counts, no note titles or names.
+      render: text
+  - type: textarea
     id: extra
     attributes:
       label: Anything else?

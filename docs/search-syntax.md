@@ -99,7 +99,8 @@ On the **Search** tab, best matches come first:
 8. Fuzzy match
 9. Typo match
 
-Ties are ordered by most recently updated. The Search tab shows up to 300 results.
+Ties are ordered by most recently updated. The Search tab lists every match (versions before 1.2 stopped at 300).
+When the list is only part of your library, the top right of the popup says so, for example "42 of 3,050 notes".
 
 On the **Updated**, **Created** and **Largest** tabs the same search filters the list, but the order is fixed by
 that tab. See [Tabs and settings](tabs-and-settings.md).

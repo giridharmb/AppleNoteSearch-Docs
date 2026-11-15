@@ -50,6 +50,9 @@ recently updated notes.
 
 Note contents are never shown.
 
+The top right of the popup shows how many notes are listed out of how many you have, for example
+"42 of 3,050 notes", and how long loading took *(1.2+)*.
+
 ## Next steps
 
 - [Search syntax](search-syntax.md) — hashtags, combining filters, folders
