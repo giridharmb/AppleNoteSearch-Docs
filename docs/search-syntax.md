@@ -31,7 +31,9 @@ Folder and account names are matched with spaces removed. For a folder called "W
 
 OR also works for plain words and other terms, for example `invoice|receipt` or `in:work|in:clients`.
 
-![Either of two hashtags plus a fuzzy title word](images/search.png)
+![Either of two hashtags plus a title word](images/search.png)
+
+*`#work|#ideas plan`: tagged `#work` or `#ideas`, with "plan" in the title.*
 
 ## Hashtags
 
@@ -47,7 +49,9 @@ OR also works for plain words and other terms, for example `invoice|receipt` or 
 - Press **Tab** to accept the first (highlighted) suggestion, or click any suggestion.
 - Autocomplete also works after `|`, so you can build `#work|#ideas` with two Tab presses.
 
-![Folder autocomplete and typo-tolerant matching](images/typo.png)
+![Hashtag autocomplete](images/autocomplete.png)
+
+*Typing `#w` suggests the hashtags that contain "w"; Tab accepts the highlighted one.*
 
 ## Fuzzy matching and typos
 
@@ -59,6 +63,10 @@ If a word is not found as typed, NoteSearch tries two looser matches against not
   9 letters or more. `wrokout` finds "Workout plan".
 
 These looser matches always rank below exact matches.
+
+![A typo still finds the note](images/typo.png)
+
+*`budgte` still finds "Budget 2027", and `in:fi` offers the Finance folder.*
 
 ## How results are ordered
 

@@ -17,9 +17,17 @@ Updated, Created and Largest show the top 50 notes by default; you can change th
 the search box filters these tabs too, using the full [search syntax](search-syntax.md). For example, on
 **Largest**, `#work` shows your largest notes tagged `#work`.
 
+![Most recently updated notes](images/updated.png)
+
+*Updated tab, Nord theme.*
+
 ![Largest notes](images/largest.png)
 
+*Largest tab, Dracula theme.*
+
 ![All hashtags](images/tags.png)
+
+*Tags tab, Midnight theme.*
 
 **About size:** the size shown is the stored size of the note's text. Photos, scans and other attachments are not
 included, so a note with many images can still look small.

@@ -7,7 +7,7 @@
 
 ## Install
 
-1. Download `NoteSearch-<version>.dmg` from the [Releases page](../../../releases).
+1. Download `NoteSearch-<version>.dmg` from the [latest release](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest).
 2. Open the DMG and drag **NoteSearch** onto the **Applications** shortcut.
 3. Open NoteSearch from Applications.
 
@@ -17,7 +17,9 @@ The first time it starts, the search popup opens by itself.
 ## Grant Full Disk Access (required, one time)
 
 Apple protects the Notes library, so macOS only lets NoteSearch read it after you allow it.
-Until you do, the popup shows a message instead of your notes.
+Until you do, the popup shows this message instead of your notes:
+
+![The Full Disk Access message](images/access.png)
 
 1. In the popup, click **Open Full Disk Access Settings**
    (or open **System Settings → Privacy & Security → Full Disk Access** yourself).
@@ -31,6 +33,8 @@ NoteSearch uses this access only to read note titles and metadata. See [Privacy]
 1. Press **⌃⌥N** (Control-Option-N) anywhere, or click the menu-bar icon.
 2. Start typing part of a note's title. Results update as you type.
 3. Use **↑ / ↓** to pick a note and press **Return**. Notes comes to the front with that note open.
+
+![The popup with nothing typed](images/hero.png)
 
 With nothing typed, the list shows the notes you opened most recently through NoteSearch, followed by your most
 recently updated notes.

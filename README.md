@@ -5,9 +5,19 @@
 Find any Apple Note in a keystroke. NoteSearch lives in the macOS menu bar: press a shortcut, type part of a title,
 a `#hashtag` or a folder name, press Return, and the note opens in Notes.
 
-![Searching by hashtags and title](docs/images/search.png)
+<p align="center"><b><a href="https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest">⬇ Download the latest version</a></b> · macOS 14 or later · signed and notarized by Apple</p>
 
-*Screenshots use sample data.*
+![The NoteSearch popup listing notes](docs/images/hero.png)
+
+*All screenshots in this documentation show made-up sample notes.*
+
+## Download and install
+
+1. [Download the latest `NoteSearch-<version>.dmg`](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest) from the Releases page.
+2. Open it and drag **NoteSearch** to **Applications**.
+3. Open NoteSearch and grant it Full Disk Access when asked.
+
+Step-by-step instructions with pictures are in [Getting started](docs/getting-started.md).
 
 ## What it does
 
@@ -18,6 +28,14 @@ a `#hashtag` or a folder name, press Return, and the note opens in Notes.
 - **Keyboard first**: a global shortcut, arrow keys and Return. No mouse needed.
 - **Private**: reads note titles and metadata only, never note contents, and never connects to the network.
 - **Nine colour themes** and a handful of useful options.
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Search combining hashtags and a title word](docs/images/search.png) <br> Either of two hashtags, plus a word in the title | ![Hashtag autocomplete](docs/images/autocomplete.png) <br> Hashtag autocomplete |
+| ![Typo-tolerant search with folder autocomplete](docs/images/typo.png) <br> A typo still finds the note; folders autocomplete too | ![Largest notes tab](docs/images/largest.png) <br> Largest notes (Dracula theme) |
+| ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) |
 
 ## Documentation
 
