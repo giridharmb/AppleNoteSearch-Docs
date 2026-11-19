@@ -20,7 +20,7 @@ after updating the app.
 
 ## I can't find the app after opening it
 
-NoteSearch has no Dock icon and no window of its own. Look for the magnifying-glass icon in the menu bar, press
+NoteSearch has no Dock icon and no window of its own. Look for the yellow magnifying-glass icon (plain grey before version 1.11) in the menu bar, press
 the global shortcut, or open NoteSearch again from Applications to bring up the popup. On a crowded menu bar the
 icon may be hidden behind the notch; the shortcut still works.
 

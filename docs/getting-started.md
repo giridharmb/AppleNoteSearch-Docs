@@ -11,7 +11,9 @@
 2. Open the DMG and drag **NoteSearch** onto the **Applications** shortcut.
 3. Open NoteSearch from Applications.
 
-NoteSearch has no Dock icon. Look for the magnifying-glass icon in the menu bar at the top right of the screen.
+NoteSearch has no Dock icon. Look for the yellow magnifying-glass icon
+<img src="images/menubar-icon.png" width="20" alt="NoteSearch menu-bar icon"> in the menu bar at the top right of the
+screen (it is plain grey before version 1.11).
 The first time it starts, the search popup opens by itself.
 
 ## Grant Full Disk Access (required, one time)
