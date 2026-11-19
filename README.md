@@ -34,6 +34,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Sort, Show and Narrow buttons** above the results, a **Folders tab**, and a list of every shortcut on
   ⌘/ *(1.8+)*.
 - **Six optional wallpapers** and a popup you can resize from the keyboard *(1.9+)*.
+- **Favourites tab and colour labels** for notes, kept in NoteSearch only *(1.12+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
   check for a newer version, which sends nothing about you or your notes.
@@ -50,6 +51,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | ![Notes changed in the last week](docs/images/dates.png) <br> Date filter: `updated:7d` | ![The matching line of text](docs/images/snippet.png) <br> Optional: the line of text that matched |
 | ![Search history](docs/images/history.png) <br> History of past searches | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) |
 | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme, Sand wallpaper) | ![Sort, Show and Narrow buttons](docs/images/buttons.png) <br> One-click sorting, filters and narrowing |
+| ![Favourites tab](docs/images/favourites.png) <br> Favourites: starred and colour-labelled notes | ![Colour filter](docs/images/colours.png) <br> Notes marked orange or green |
 
 ## Documentation
 

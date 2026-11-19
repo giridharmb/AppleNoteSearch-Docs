@@ -16,7 +16,7 @@
 | **⌘Return** | Open the selected note and keep the popup on screen |
 | **Tab** | Accept the first autocomplete suggestion. With no suggestions: go to the next tab |
 | **⇧Tab** | Go to the previous tab |
-| **⌘1 … ⌘8** | Search, Updated, Created, Largest, Tags, Folders, History, Settings *(before 1.8 there is no Folders tab, so History is ⌘6 and Settings ⌘7)* |
+| **⌘1 … ⌘9** | Search, Favourites, Updated, Created, Largest, Tags, Folders, History, Settings. The numbers are for 1.12; earlier versions have fewer tabs, so their numbers are lower. **⌘,** always opens Settings |
 | **⌘,** | Settings |
 | **⌘T** | Switch between matching titles only and titles plus note text *(1.3+)* |
 | **⌘S** | Change the sort order: best match, last updated, newest, largest, A–Z *(1.4+; A–Z from 1.8)* |
@@ -25,6 +25,8 @@
 | **⌘0** | Return the popup to its default size *(1.9+)* |
 | **⌘/** | Show or hide the list of all shortcuts *(1.8+)* |
 | **⌘D** | Star or unstar the selected note as a favourite *(1.4+)* |
+| **⌃1 … ⌃7** | Give the selected note a colour: red, orange, yellow, green, blue, purple, grey. The same key again removes it *(1.12+)* |
+| **⌃0** | Remove the selected note's colour *(1.12+)* |
 | **⇧⌘D** | Save the search you are typing. It appears starred at the top of the History tab *(1.7+)* |
 | **⌘N** | Create a new note in Notes, titled with whatever you have typed. macOS asks for permission the first time *(1.4+)* |
 | **⇧⌘C** | Copy a link to the selected note. Opening the link shows that note in Notes |
@@ -59,6 +61,10 @@ The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 | **Return** | Run the highlighted search again |
 | **⌘D** | Save or unsave the highlighted search *(1.7+)* |
 | **⌘⌫** | Remove the highlighted search from the history |
+
+## With the mouse *(1.12+)*
+
+Right-click a note for a menu with **Star**, **Colour**, and the three copy actions.
 
 ## Menu-bar icon
 

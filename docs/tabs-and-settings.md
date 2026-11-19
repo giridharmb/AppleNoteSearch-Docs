@@ -2,20 +2,31 @@
 
 ## Tabs
 
-Switch tabs with **⌘1 … ⌘8**, by clicking, or with **Tab** when no autocomplete suggestion is showing.
+Switch tabs with **⌘1 … ⌘9**, by clicking, or with **Tab** when no autocomplete suggestion is showing.
 
 | Tab | Shows |
 | --- | --- |
 | **Search** (⌘1) | Everything that matches, best match first (⌘S changes the order). Empty search: favourites, then recently opened notes, then recently updated |
-| **Updated** (⌘2) | The most recently updated notes |
-| **Created** (⌘3) | The most recently created notes |
-| **Largest** (⌘4) | The largest notes |
-| **Tags** (⌘5) | Every hashtag with the number of notes that use it |
-| **Folders** (⌘6) | Every folder with the number of notes in it *(1.8+)* |
-| **History** (⌘7) | Your past searches *(1.3+; ⌘6 before 1.8)* |
-| **Settings** (⌘8, or **⌘,**) | Options, below *(⌘7 before 1.8)* |
+| **Favourites** (⌘2) | Notes you starred or gave a colour *(1.12+)* |
+| **Updated** (⌘3) | The most recently updated notes |
+| **Created** (⌘4) | The most recently created notes |
+| **Largest** (⌘5) | The largest notes |
+| **Tags** (⌘6) | Every hashtag with the number of notes that use it |
+| **Folders** (⌘7) | Every folder with the number of notes in it *(1.8+)* |
+| **History** (⌘8) | Your past searches *(1.3+)* |
+| **Settings** (⌘9, or **⌘,**) | Options, below |
+
+These numbers are for version 1.12. Earlier versions have fewer tabs, so the numbers after the missing tabs are
+lower. From 1.12 the small ⌘-number hints on the tabs are shown only when the popup is wide enough.
 
 The popup always opens on the Search tab with an empty search box.
+
+### Favourites *(1.12+)*
+
+![Favourites tab](images/favourites.png)
+
+Starred notes first, then notes with a colour, grouped in colour order. Type to filter the list. See
+[Stars and colours](search-syntax.md#stars-and-colours) for how to mark notes.
 
 ### Updated, Created and Largest
 

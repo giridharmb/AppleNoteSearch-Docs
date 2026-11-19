@@ -15,6 +15,7 @@ ignored, so `cafe` finds "Café".
 | `is:locked` | Locked notes | |
 | `is:checklist` | Notes that contain a checklist | |
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
+| `color:name` | Notes you gave that colour; `color:any` / `color:none` for coloured / uncoloured notes *(1.12+)* | `color:orange` |
 | `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
 | `is:untagged` | Notes with no hashtags *(1.7+)* | |
 | `is:shared` | Notes you share with other people, or that sit directly in a shared folder *(1.7+)* | |
@@ -101,10 +102,26 @@ In Settings, **Added to every search** takes ordinary search terms and applies t
 `-in:archive` hides everything in a folder called "Archive", and `-account:work` hides a whole account. Clear the
 field to see everything again. Hashtag counts on the Tags tab are not affected.
 
-## Favourites *(1.4+)*
+## Stars and colours
 
-Press **⌘D** on a note to star it; press again to remove the star. Starred notes show a star, are listed first
-when the search box is empty, and are found by `is:favorite`.
+You can mark notes in two ways. Both marks are kept by NoteSearch on this Mac only: they are **not** written to
+Apple Notes, so they do not appear in the Notes app or on your other devices.
+
+- **Star** *(1.4+)*: press **⌘D** on a note; press again to remove it. Starred notes show a star, are listed first
+  when the search box is empty, and are found by `is:favorite`.
+- **Colour** *(1.12+)*: press **⌃1 … ⌃7** for red, orange, yellow, green, blue, purple or grey. The note's icon
+  takes that colour. Press the same key again, or **⌃0**, to remove it. A note has one colour at a time.
+
+From 1.12 you can also right-click a note and choose **Star** or **Colour**.
+
+To find marked notes:
+
+- Open the **Favourites** tab (**⌘2**), which lists every starred or coloured note.
+- Click one of the seven colour dots at the end of the **Show** row.
+- Type `color:orange` (`colour:` also works). `color:any` finds every coloured note and `color:none` the rest.
+  Like any term it combines with others: `color:red #work`, or `color:orange|color:green`.
+
+![Notes marked orange or green](images/colours.png)
 
 ## Searching inside note text *(1.3+)*
 
