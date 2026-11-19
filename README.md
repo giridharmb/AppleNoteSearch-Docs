@@ -36,6 +36,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Six optional wallpapers** and a popup you can resize from the keyboard *(1.9+)*.
 - **Favourites tab and colour labels** for notes, kept in NoteSearch only *(1.12+)*.
 - **Right-click menu** on notes: open, star, colour, hide, jump to the same folder or hashtag, copy *(1.13+)*.
+- **Optional iCloud sync** of stars, colours, hidden notes and saved searches between your Macs *(1.14+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
   check for a newer version, which sends nothing about you or your notes.

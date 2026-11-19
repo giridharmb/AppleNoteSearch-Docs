@@ -79,6 +79,14 @@ The first time you press **⌘N**, macOS asks whether NoteSearch may control Not
 
 Open Settings (**⌘,**) and turn off **Check for updates once a day**. See [Privacy](privacy.md#network-use).
 
+## My stars and colours are not on my other Mac
+
+They sync only from version 1.14, and only when **Sync through iCloud Drive** is on in Settings on **both** Macs.
+Check that iCloud Drive itself is on, then open the popup on each Mac; the line under the setting shows the last
+sync or the reason it could not. If it says some marked notes "are not on this Mac yet", Apple Notes has not
+synced those notes here, or they live in "On My Mac" on the other computer. See
+[Syncing between Macs](tabs-and-settings.md#syncing-between-macs-114).
+
 ## Can it search inside notes?
 
 Yes, from version 1.3, but it is off by default. Turn on **Search inside note text** in Settings or press **⌘T**.

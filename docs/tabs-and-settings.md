@@ -103,6 +103,7 @@ one.
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
 | **Launch at login** | Start NoteSearch when you log in | Off |
 | **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
+| **Sync through iCloud Drive** | Keeps stars, colours, hidden notes and saved searches the same on every Mac where this is on. See [Syncing between Macs](#syncing-between-macs-114) *(1.14+)* | Off |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
 | **Hidden notes → Show / Unhide all** | Lists the notes you hid from NoteSearch, or brings them all back *(1.13+)* | |
@@ -118,6 +119,29 @@ Drag any edge of the popup to resize it. From version 1.9 you can also press **�
 **Smaller** / **Larger** in Settings; **⌘0** or **Reset** returns to the default size. After a resize the popup
 moves back to the centre of the screen (unless **Open the popup where I left it** is on), and it opens at the
 size you chose next time. It cannot be made larger than the screen or smaller than 640 × 360.
+
+### Syncing between Macs *(1.14+)*
+
+Your notes already sync through Apple Notes. This setting syncs what NoteSearch adds on top: **stars, colours,
+hidden notes and saved searches**. Themes, wallpaper, popup size, the shortcut and search history stay separate
+on each Mac.
+
+1. On each Mac, make sure iCloud Drive is turned on (System Settings → your name → iCloud → iCloud Drive).
+2. On each Mac, open NoteSearch Settings and turn on **Sync through iCloud Drive**.
+
+NoteSearch then syncs every time the popup opens and after every change. A line under the setting shows when it
+last synced. On a new Mac, install NoteSearch, turn the setting on, and your marks appear.
+
+When the Macs do not match:
+
+- **A marked note is not on this Mac** (Notes has not synced it yet, or it is in "On My Mac" on the other
+  computer): the mark is kept and takes effect when the note arrives. The setting reports how many, for example
+  "3 marked notes are not on this Mac yet".
+- **Both Macs changed things while apart:** the changes are merged. A star added on one Mac and a colour added on
+  the other both survive, and something you removed on one Mac is not brought back by the other. If both changed
+  the same note, the Mac that syncs last wins.
+- **"Not synced" appears:** NoteSearch could not use the file (iCloud is still downloading it, iCloud Drive is
+  off, or the file is damaged). Nothing is changed on either side; it tries again next time the popup opens.
 
 ### Wallpapers *(1.9+)*
 

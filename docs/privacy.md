@@ -28,11 +28,25 @@ From version 1.3 there is an optional setting, **Search inside note text**, whic
 - **Locked notes are never read.** They are encrypted, and NoteSearch does not ask for their password.
 - Turning the setting off again discards the text from memory.
 
+## iCloud sync: only if you turn it on *(1.14+)*
+
+From version 1.14 there is an optional setting, **Sync through iCloud Drive**, which is **off** unless you switch
+it on. While it is on:
+
+- NoteSearch keeps one file, `NoteSearch-sync.json`, in a **NoteSearch** folder in your iCloud Drive.
+- The file holds your stars, colours, hidden notes and saved searches. Notes are listed by internal ID only. It
+  contains **no note titles and no note text**. Your saved searches are stored as you typed them.
+- Apple's iCloud carries the file to your other Macs, like any other file in iCloud Drive. NoteSearch itself
+  sends it nowhere and makes no network connection for this.
+- Turning the setting off stops the syncing but does not delete the file. To remove it, delete the NoteSearch
+  folder from iCloud Drive in Finder.
+
 ## What it never does
 
 - It never changes, creates or deletes notes. Access is read-only.
 - It never reads what is inside attachments.
-- It never sends anything about you or your notes anywhere. There is no analytics or telemetry.
+- It never sends anything about you or your notes anywhere. There is no analytics or telemetry. (The optional
+  sync file above is carried between your own Macs by iCloud Drive, not by NoteSearch.)
 - It never creates a note unless you press **⌘N** *(1.4+)*, and then it is the Notes app that creates it, after
   macOS has asked for your permission.
 
