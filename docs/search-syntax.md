@@ -121,6 +121,30 @@ There are no built-in categories: the sidebar shows only **All Notes** and **New
 and **No Category** appears once you have. (Version 1.15 alone started with Work, Home and Bills. From 1.16 they
 are gone unless you had already used them; if they still show, right-click each and choose Delete.)
 
+### Order and sub-categories *(1.19+)*
+
+Right-click a category for **Move Up** and **Move Down**, which change its place in the sidebar, and **Put
+Inside**, which makes it a sub-category of another one (choose **Top Level** to bring it back out). There is one
+level of nesting. A category lists and counts the notes in its sub-categories too, so `cat:work` also finds notes
+filed under Work › Projects.
+
+![Sub-categories in the sidebar](images/categories-nested.png)
+
+## Selecting several notes *(1.19+)*
+
+![Three notes selected](images/select-several.png)
+
+To star, colour, file or hide several notes in one go, select them first:
+
+- **⌘-click** a note to select or deselect it; **⇧-click** selects everything from the highlighted note to the
+  one you click.
+- From the keyboard, hold **⇧** while pressing **↑** or **↓**. **⇧⌘A** selects every note in the list.
+- A bar appears above the list showing how many are selected, with colour dots and **Star**, **Category…**,
+  **Hide** and **Clear** buttons.
+- **⌘D**, **⌃1 … ⌃7**, **⌘M** and the right-click menu then act on all the selected notes, and dragging one
+  selected note onto a category moves them all.
+- **Esc** clears the selection. A plain click still opens a note.
+
 ## Hiding notes *(1.13+)*
 
 Right-click a note and choose **Hide from NoteSearch** to keep it out of every list (this needs version 1.15;

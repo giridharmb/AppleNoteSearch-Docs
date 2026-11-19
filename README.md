@@ -41,6 +41,8 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Right-click menu** on notes: open, star, colour, category, hide, jump to the same folder or hashtag, copy
   *(1.15+)*.
 - **Optional iCloud sync** of stars, colours, hidden notes and saved searches between your Macs *(1.14+)*.
+- **Select several notes** to star, colour, file or hide them together; **sub-categories**; and a **backup**
+  file for your marks *(1.19+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
   check for a newer version, which sends nothing about you or your notes.

@@ -42,6 +42,12 @@ it on. While it is on:
 - Turning the setting off stops the syncing but does not delete the file. To remove it, delete the NoteSearch
   folder from iCloud Drive in Finder.
 
+## Backup files *(1.19+)*
+
+**Settings → Backup → Export…** writes a file wherever you choose. It contains the same things as the sync file:
+stars, colours, categories, hidden notes (all by internal note ID) and your saved searches. No note titles or
+text. NoteSearch does not send the file anywhere; what happens to it afterwards is up to you.
+
 ## What it never does
 
 - It never changes, creates or deletes notes. Access is read-only.

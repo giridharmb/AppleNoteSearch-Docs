@@ -14,7 +14,10 @@
 NoteSearch has no Dock icon. Look for the yellow magnifying-glass icon
 <img src="images/menubar-icon.png" width="20" alt="NoteSearch menu-bar icon"> in the menu bar at the top right of the
 screen (it is plain grey before version 1.11).
-The first time it starts, the search popup opens by itself.
+The first time it starts, the search popup opens by itself, with a short welcome screen from version 1.19;
+click **Start Searching** or press Return to dismiss it.
+
+![The welcome screen](images/welcome.png)
 
 ## Grant Full Disk Access (required, one time)
 

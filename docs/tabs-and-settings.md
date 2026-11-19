@@ -105,6 +105,7 @@ one.
 | **Launch at login** | Start NoteSearch when you log in | Off |
 | **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
 | **Sync through iCloud Drive** | Keeps stars, colours, hidden notes and saved searches the same on every Mac where this is on. See [Syncing between Macs](#syncing-between-macs-114) *(1.14+)* | Off |
+| **Backup → Export… / Import…** | Saves your stars, colours, categories, hidden notes and saved searches to one file, or adds a file's contents to what you have. Importing never removes anything, and where both have something for the same note, what is on this Mac is kept *(1.19+)* | |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
 | **Hidden notes → Show / Unhide all** | Lists the notes you hid from NoteSearch, or brings them all back *(1.13+)* | |

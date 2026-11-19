@@ -29,13 +29,15 @@
 | **⌃0** | Remove the selected note's colour *(1.12+)* |
 | **⌘M** | Move the selected note to a category: a list opens, press its number (1–9), or 0 for none *(1.15+)* |
 | **⌘B** | Show or hide the categories sidebar *(1.15+)* |
+| **⇧↑ / ⇧↓** | Select several notes; ⌘D, ⌃1–⌃7 and ⌘M then act on all of them *(1.19+)* |
+| **⇧⌘A** | Select every note in the list *(1.19+)* |
 | **⇧⌘D** | Save the search you are typing. It appears starred at the top of the History tab *(1.7+)* |
 | **⌘N** | Create a new note in Notes, titled with whatever you have typed. macOS asks for permission the first time *(1.4+)* |
 | **⇧⌘C** | Copy a link to the selected note. Opening the link shows that note in Notes |
 | **⌥⌘C** | Copy the selected note's title *(1.7+)* |
 | **⌃⌘C** | Copy a Markdown link to the selected note, `[title](link)` *(1.7+)* |
 | **⌘R** | Reload notes |
-| **Esc** | Clear the search box. If it is already empty, close the popup |
+| **Esc** | Clear the selection of several notes if there is one, then the search box; if that is empty, close the popup |
 | **⌘W** | Close the popup |
 | **⌘Q** | Quit NoteSearch |
 
@@ -80,7 +82,10 @@ Right-click a note for a menu *(1.15+)*:
 | **Notes Marked "colour"** / **Notes in Category** | Lists the other notes with the same colour or category |
 | **Copy** | Link, title or Markdown link |
 
-Right-click a category in the sidebar to show its notes, rename it, change its icon or delete it.
+Right-click a category in the sidebar to show its notes, rename it, change its icon, move it up or down, put it
+inside another category *(1.19+)*, or delete it.
+
+**⌘-click** a note to select it along with others, and **⇧-click** to select a run of notes *(1.19+)*.
 
 Nothing in these menus changes the note in Apple Notes.
 
