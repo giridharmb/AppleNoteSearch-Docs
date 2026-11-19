@@ -59,9 +59,29 @@ Only file names are used, never what is inside the files.
 
 ![Notes changed in the last week](images/dates.png)
 
+## Buttons above the results *(1.8+)*
+
+![Sort, Show and Narrow buttons](images/buttons.png)
+
+*`plan`, sorted oldest first, with the Narrow buttons offering the hashtags and folders found in those results.*
+
+Three rows of buttons sit above the results. Each one only adds or removes a term in the search box, so you can
+always see, and edit, what it did.
+
+- **Sort:** best match, last updated, newest, largest, A–Z. Click the active one again to reverse it; an arrow
+  shows the direction, so "newest ↑" lists the oldest note first. Best match cannot be reversed.
+- **Show:** Favourites, Pinned, Attachments, Checklists, Untagged, Today, 7 days, 30 days. Click to turn one on,
+  click again to turn it off. They combine with each other and with what you typed. The three date buttons
+  replace one another.
+- **Narrow:** appears once you have typed something. It lists the hashtags and folders found most often in the
+  current results, each with the number of notes it would leave. Click one, or press **⌥1 … ⌥9**, to keep only
+  those notes.
+
+The Sort row is on the Search tab only; Updated, Created and Largest have a fixed order.
+
 ## Sort order *(1.4+)*
 
-The Search tab normally lists the best match first. Press **⌘S**, or click the sort label at the top right, to
+The Search tab normally lists the best match first. Press **⌘S**, or click a **Sort** button (before 1.8: the sort label at the top right), to
 switch between **best match**, **last updated**, **newest** (most recently created) and **largest**. Your choice
 is remembered.
 

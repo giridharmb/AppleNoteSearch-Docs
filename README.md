@@ -31,6 +31,8 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Date filters, sort order, favourites** and a **new-note shortcut** *(1.4+)*.
 - **Saved searches**, filters for size, untagged and shared notes, a text-size setting, a resizable popup and a
   one-click update download *(1.7+)*.
+- **Sort, Show and Narrow buttons** above the results, a **Folders tab**, and a list of every shortcut on
+  ⌘/ *(1.8+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
   check for a newer version, which sends nothing about you or your notes.
@@ -46,7 +48,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | ![Search inside note text](docs/images/text.png) <br> Searching inside note text, when turned on | ![Selecting several hashtags](docs/images/tags-multi.png) <br> Ticking several hashtags shows how many notes have all or any |
 | ![Notes changed in the last week](docs/images/dates.png) <br> Date filter: `updated:7d` | ![The matching line of text](docs/images/snippet.png) <br> Optional: the line of text that matched |
 | ![Search history](docs/images/history.png) <br> History of past searches | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) |
-| ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) | |
+| ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme) | ![Sort, Show and Narrow buttons](docs/images/buttons.png) <br> One-click sorting, filters and narrowing |
 
 ## Documentation
 

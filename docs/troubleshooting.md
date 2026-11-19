@@ -13,7 +13,7 @@ after updating the app.
 
 ## The global shortcut does nothing
 
-- Another app may be using the same combination. Open Settings (**⌘7**, or ⌘6 before version 1.3) and look for a red message under
+- Another app may be using the same combination. Open Settings (**⌘,**) and look for a red message under
   **Global shortcut**, then record a different one.
 - Check the shortcut is not disabled in Settings.
 - Make sure NoteSearch is running: its icon should be in the menu bar.
@@ -38,7 +38,7 @@ icon may be hidden behind the notch; the shortcut still works.
 - **Notes in Recently Deleted are not listed.**
 - Notes that belong to a mail account (Gmail, Exchange, IMAP) rather than iCloud or On My Mac are not supported.
 
-If notes are still missing, open Settings (**⌘7**), click **Copy diagnostics**, and paste the result into a
+If notes are still missing, open Settings (**⌘,**), click **Copy diagnostics**, and paste the result into a
 [bug report](../../../issues/new/choose). The report contains only counts, no titles or names.
 
 ## A note I just created or renamed is missing
@@ -75,7 +75,7 @@ The first time you press **⌘N**, macOS asks whether NoteSearch may control Not
 
 ## How do I turn off the update check?
 
-Open Settings (**⌘7**) and turn off **Check for updates once a day**. See [Privacy](privacy.md#network-use).
+Open Settings (**⌘,**) and turn off **Check for updates once a day**. See [Privacy](privacy.md#network-use).
 
 ## Can it search inside notes?
 
