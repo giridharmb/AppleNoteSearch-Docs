@@ -102,7 +102,7 @@ Press **⇧⌘D** to save the search you are typing. Saved searches appear with 
 
 ![The categories sidebar, showing the Work category](images/categories.png)
 
-Categories are your own groups for notes, such as Work, Home and Bills. They are listed in a sidebar on the left,
+Categories are your own groups for notes: you create them, for example Work, Home or Bills. They are listed in a sidebar on the left,
 each with an icon and the number of notes in it. A note is in one category at a time. Like stars and colours,
 categories are kept by NoteSearch and are **not** written to Apple Notes.
 
@@ -117,7 +117,9 @@ categories are kept by NoteSearch and are **not** written to Apple Notes.
   `cat:work updated:7d`. `cat:none` finds notes with no category and `cat:any` those with one.
 - **Hide the sidebar:** press **⌘B**, or use the setting **Show the categories sidebar**.
 
-Version 1.15 starts you off with Work, Home and Bills; rename or delete them as you like.
+There are no built-in categories: the sidebar shows only **All Notes** and **New Category…** until you make one,
+and **No Category** appears once you have. (Version 1.15 alone started with Work, Home and Bills. From 1.16 they
+are gone unless you had already used them; if they still show, right-click each and choose Delete.)
 
 ## Hiding notes *(1.13+)*
 
