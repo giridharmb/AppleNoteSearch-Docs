@@ -1,6 +1,6 @@
 # Privacy
 
-NoteSearch is built to know as little about your notes as it can, and to keep everything on your Mac.
+NoteHawk is built to know as little about your notes as it can, and to keep everything on your Mac.
 
 ## What it reads by default
 
@@ -21,11 +21,11 @@ With the default settings the text of your notes is not read.
 From version 1.3 there is an optional setting, **Search inside note text**, which is **off** unless you switch it on
 (in Settings, with **⌘T**, or by clicking the "titles" label in the popup). While it is on:
 
-- NoteSearch reads the text of your notes into memory so that searches can match it.
-- The text is **never written to disk** by NoteSearch. A matching note is only marked "in text".
+- NoteHawk reads the text of your notes into memory so that searches can match it.
+- The text is **never written to disk** by NoteHawk. A matching note is only marked "in text".
 - The text is **not displayed** unless you also turn on **Show the matching line for text matches** *(1.4+)*,
   which shows the single line that matched under the result.
-- **Locked notes are never read.** They are encrypted, and NoteSearch does not ask for their password.
+- **Locked notes are never read.** They are encrypted, and NoteHawk does not ask for their password.
 - Turning the setting off again discards the text from memory.
 
 ## iCloud sync: only if you turn it on *(1.14+)*
@@ -33,27 +33,27 @@ From version 1.3 there is an optional setting, **Search inside note text**, whic
 From version 1.14 there is an optional setting, **Sync through iCloud Drive**, which is **off** unless you switch
 it on. While it is on:
 
-- NoteSearch keeps one file, `NoteSearch-sync.json`, in a **NoteSearch** folder in your iCloud Drive.
+- NoteHawk keeps one file, `NoteSearch-sync.json`, in a **NoteSearch** folder in your iCloud Drive.
 - The file holds your stars, colours, categories (their names and icons, from 1.15), hidden notes and saved
   searches. Notes are listed by internal ID only. It
   contains **no note titles and no note text**. Your saved searches are stored as you typed them.
-- Apple's iCloud carries the file to your other Macs, like any other file in iCloud Drive. NoteSearch itself
+- Apple's iCloud carries the file to your other Macs, like any other file in iCloud Drive. NoteHawk itself
   sends it nowhere and makes no network connection for this.
-- Turning the setting off stops the syncing but does not delete the file. To remove it, delete the NoteSearch
+- Turning the setting off stops the syncing but does not delete the file. To remove it, delete the NoteHawk
   folder from iCloud Drive in Finder.
 
 ## Backup files *(1.19+)*
 
 **Settings → Backup → Export…** writes a file wherever you choose. It contains the same things as the sync file:
 stars, colours, categories, hidden notes (all by internal note ID) and your saved searches. No note titles or
-text. NoteSearch does not send the file anywhere; what happens to it afterwards is up to you.
+text. NoteHawk does not send the file anywhere; what happens to it afterwards is up to you.
 
 ## What it never does
 
 - It never changes, creates or deletes notes. Access is read-only.
 - It never reads what is inside attachments.
 - It never sends anything about you or your notes anywhere. There is no analytics or telemetry. (The optional
-  sync file above is carried between your own Macs by iCloud Drive, not by NoteSearch.)
+  sync file above is carried between your own Macs by iCloud Drive, not by NoteHawk.)
 - It never creates a note unless you press **⌘N** *(1.4+)*, and then it is the Notes app that creates it, after
   macOS has asked for your permission.
 
@@ -61,9 +61,9 @@ text. NoteSearch does not send the file anywhere; what happens to it afterwards 
 
 Versions before 1.4 never connect to the network.
 
-From version 1.4, NoteSearch checks **once a day** whether a newer version exists. It asks GitHub's public address
+From version 1.4, NoteHawk checks **once a day** whether a newer version exists. It asks GitHub's public address
 for this project's latest release and reads the version number from the reply. The request contains nothing about
-you, your Mac or your notes. To stop it, turn off **Check for updates once a day** in Settings; NoteSearch then
+you, your Mac or your notes. To stop it, turn off **Check for updates once a day** in Settings; NoteHawk then
 makes no network connections at all.
 
 From version 1.7, clicking **Download and open** on the update notice downloads the new version's disk image from
@@ -74,7 +74,7 @@ this project's GitHub releases to your Downloads folder. This happens only when 
 Only its own preferences, on your Mac:
 
 - Your settings (theme, shortcut, options)
-- Identifiers of the last 30 notes you opened through NoteSearch, so they can be listed first. These are internal
+- Identifiers of the last 30 notes you opened through NoteHawk, so they can be listed first. These are internal
   IDs, not titles or text.
 - Your last 50 searches, for the History tab *(1.3+)*. You can turn this off or clear it in Settings.
 - Your saved searches, and the terms in **Added to every search** *(1.7+)*.
@@ -100,4 +100,4 @@ you choose whether to paste it.
 ## Why Full Disk Access?
 
 macOS protects the Notes library and offers no narrower permission for reading it. Full Disk Access is the only
-way macOS lets an app see your note titles. NoteSearch uses it for the Notes library and nothing else.
+way macOS lets an app see your note titles. NoteHawk uses it for the Notes library and nothing else.

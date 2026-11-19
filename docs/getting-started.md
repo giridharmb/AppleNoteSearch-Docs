@@ -7,31 +7,46 @@
 
 ## Install
 
-1. Download `NoteSearch-<version>.dmg` from the [latest release](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest).
-2. Open the DMG and drag **NoteSearch** onto the **Applications** shortcut.
-3. Open NoteSearch from Applications.
+1. Download `NoteHawk-<version>.dmg` from the [latest release](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest).
+2. Open the DMG and drag **NoteHawk** onto the **Applications** shortcut.
+3. Open NoteHawk from Applications.
 
-NoteSearch has no Dock icon. Look for the yellow magnifying-glass icon
-<img src="images/menubar-icon.png" width="20" alt="NoteSearch menu-bar icon"> in the menu bar at the top right of the
+NoteHawk has no Dock icon. Look for the yellow magnifying-glass icon
+<img src="images/menubar-icon.png" width="20" alt="NoteHawk menu-bar icon"> in the menu bar at the top right of the
 screen (it is plain grey before version 1.11).
 The first time it starts, the search popup opens by itself, with a short welcome screen from version 1.19;
 click **Start Searching** or press Return to dismiss it.
 
 ![The welcome screen](images/welcome.png)
 
+## Upgrading from NoteSearch
+
+From version 1.20 the app is called NoteHawk. Nothing else changes: your settings, stars, colours, categories and
+the Full Disk Access permission carry over.
+
+1. Download `NoteHawk-<version>.dmg` and drag **NoteHawk** to Applications. The old **NoteSearch** app stays where
+   it was.
+2. Open NoteHawk. It quits the old NoteSearch if it is running, and asks once whether to move the old app to the
+   Trash. Choose **Move to Trash**, or **Keep It** and delete it yourself later.
+3. If you had **Launch at login** turned on, turn it on again in NoteHawk's Settings.
+
+A few things keep the old name on purpose, so that older versions keep working alongside: the **NoteSearch**
+folder in iCloud Drive used for syncing, and links of the form `notesearch://…`, which still work next to the new
+`notehawk://…`.
+
 ## Grant Full Disk Access (required, one time)
 
-Apple protects the Notes library, so macOS only lets NoteSearch read it after you allow it.
+Apple protects the Notes library, so macOS only lets NoteHawk read it after you allow it.
 Until you do, the popup shows this message instead of your notes:
 
 ![The Full Disk Access message](images/access.png)
 
 1. In the popup, click **Open Full Disk Access Settings**
    (or open **System Settings → Privacy & Security → Full Disk Access** yourself).
-2. Turn on **NoteSearch** in the list. If it is not listed, click **+** and choose NoteSearch from Applications.
+2. Turn on **NoteHawk** in the list. If it is not listed, click **+** and choose NoteHawk from Applications.
 3. Go back to the popup and click **Retry**.
 
-NoteSearch uses this access only to read your Notes library: titles and metadata by default, and note text only
+NoteHawk uses this access only to read your Notes library: titles and metadata by default, and note text only
 if you turn that on. See [Privacy](privacy.md).
 
 ## Your first search
@@ -42,7 +57,7 @@ if you turn that on. See [Privacy](privacy.md).
 
 ![The popup with nothing typed](images/hero.png)
 
-With nothing typed, the list shows the notes you opened most recently through NoteSearch, followed by your most
+With nothing typed, the list shows the notes you opened most recently through NoteHawk, followed by your most
 recently updated notes.
 
 ## Each result shows

@@ -11,6 +11,6 @@
 
 ## Checklist
 
-- [ ] I checked the behaviour against the current version of NoteSearch
+- [ ] I checked the behaviour against the current version of NoteHawk
 - [ ] Links and images work in the GitHub preview
 - [ ] Screenshots contain no private note titles or personal data

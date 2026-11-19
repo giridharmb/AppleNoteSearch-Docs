@@ -17,7 +17,7 @@ ignored, so `cafe` finds "Café".
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
 | `color:name` | Notes you gave that colour; `color:any` / `color:none` for coloured / uncoloured notes *(1.12+)* | `color:orange` |
 | `cat:name` | Notes in that category; `cat:none` / `cat:any` for notes without / with one *(1.15+)* | `cat:work` |
-| `is:hidden` | Notes you hid from NoteSearch *(1.13+)* | |
+| `is:hidden` | Notes you hid from NoteHawk *(1.13+)* | |
 | `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
 | `is:untagged` | Notes with no hashtags *(1.7+)* | |
 | `is:shared` | Notes you share with other people, or that sit directly in a shared folder *(1.7+)* | |
@@ -104,7 +104,7 @@ Press **⇧⌘D** to save the search you are typing. Saved searches appear with 
 
 Categories are your own groups for notes: you create them, for example Work, Home or Bills. They are listed in a sidebar on the left,
 each with an icon and the number of notes in it. A note is in one category at a time. Like stars and colours,
-categories are kept by NoteSearch and are **not** written to Apple Notes.
+categories are kept by NoteHawk and are **not** written to Apple Notes.
 
 - **See a category's notes:** click it. Click it again, or **All Notes**, to go back. **No Category** lists the
   notes you have not filed yet.
@@ -147,11 +147,11 @@ To star, colour, file or hide several notes in one go, select them first:
 
 ## Hiding notes *(1.13+)*
 
-Right-click a note and choose **Hide from NoteSearch** to keep it out of every list (this needs version 1.15;
+Right-click a note and choose **Hide from NoteHawk** to keep it out of every list (this needs version 1.15;
 the menu did not open in 1.13 and 1.14). The note is untouched in
-Apple Notes; only NoteSearch stops showing it.
+Apple Notes; only NoteHawk stops showing it.
 
-- Search `is:hidden` to see the notes you have hidden. Right-click one there and choose **Show in NoteSearch
+- Search `is:hidden` to see the notes you have hidden. Right-click one there and choose **Show in NoteHawk
   Again** to bring it back.
 - Settings shows how many notes are hidden, with **Show** and **Unhide all** buttons.
 
@@ -165,7 +165,7 @@ field to see everything again. Hashtag counts on the Tags tab are not affected.
 
 ## Stars and colours
 
-You can mark notes in two ways. Both marks are kept by NoteSearch on this Mac only: they are **not** written to
+You can mark notes in two ways. Both marks are kept by NoteHawk on this Mac only: they are **not** written to
 Apple Notes, so they do not appear in the Notes app or on your other devices.
 
 - **Star** *(1.4+)*: press **⌘D** on a note; press again to remove it. Starred notes show a star, are listed first
@@ -261,7 +261,7 @@ moves to the next tab as before.
 
 ## Fuzzy matching and typos
 
-If a word is not found as typed, NoteSearch tries two looser matches against note titles:
+If a word is not found as typed, NoteHawk tries two looser matches against note titles:
 
 - **Skipped letters** (3 letters or more): the letters must appear in order, close together.
   `wrkt` finds "Workout plan".

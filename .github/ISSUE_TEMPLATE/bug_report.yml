@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in NoteSearch is not working as described
+description: Something in NoteHawk is not working as described
 title: "[Bug] "
 labels: ["bug"]
 body:
@@ -46,8 +46,8 @@ body:
   - type: input
     id: app-version
     attributes:
-      label: NoteSearch version
-      description: Shown in Finder → Applications → NoteSearch → Get Info
+      label: NoteHawk version
+      description: Shown in Finder → Applications → NoteHawk → Get Info
       placeholder: "1.0"
     validations:
       required: true
@@ -68,7 +68,7 @@ body:
     id: diagnostics
     attributes:
       label: Diagnostics (for missing notes)
-      description: In NoteSearch 1.2 or later, open Settings (⌘6), click Copy diagnostics and paste here. It contains only counts, no note titles or names.
+      description: In NoteHawk 1.2 or later, open Settings (⌘6), click Copy diagnostics and paste here. It contains only counts, no note titles or names.
       render: text
   - type: textarea
     id: extra

@@ -1,21 +1,24 @@
-<p align="center"><img src="docs/images/icon.png" width="128" alt="NoteSearch icon"></p>
+<p align="center"><img src="docs/images/icon.png" width="128" alt="NoteHawk icon"></p>
 
-# NoteSearch
+# NoteHawk
 
-Find any Apple Note in a keystroke. NoteSearch lives in the macOS menu bar: press a shortcut, type part of a title,
+*NoteHawk was called **NoteSearch** up to version 1.19. It is the same app: updating keeps your settings, stars,
+colours and categories. See [Upgrading from NoteSearch](docs/getting-started.md#upgrading-from-notesearch).*
+
+Find any Apple Note in a keystroke. NoteHawk lives in the macOS menu bar: press a shortcut, type part of a title,
 a `#hashtag` or a folder name, press Return, and the note opens in Notes.
 
 <p align="center"><b><a href="https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest">⬇ Download the latest version</a></b> · macOS 14 or later · signed and notarized by Apple</p>
 
-![The NoteSearch popup listing notes](docs/images/hero.png)
+![The NoteHawk popup listing notes](docs/images/hero.png)
 
 *All screenshots in this documentation show made-up sample notes.*
 
 ## Download and install
 
-1. [Download the latest `NoteSearch-<version>.dmg`](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest) from the Releases page.
-2. Open it and drag **NoteSearch** to **Applications**.
-3. Open NoteSearch and grant it Full Disk Access when asked.
+1. [Download the latest `NoteHawk-<version>.dmg`](https://github.com/giridharmb/AppleNoteSearch-Docs/releases/latest) from the Releases page.
+2. Open it and drag **NoteHawk** to **Applications**.
+3. Open NoteHawk and grant it Full Disk Access when asked.
 
 Step-by-step instructions with pictures are in [Getting started](docs/getting-started.md).
 
@@ -35,7 +38,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 - **Sort, Show and Narrow buttons** above the results, a **Folders tab**, and a list of every shortcut on
   ⌘/ *(1.8+)*.
 - **Six optional wallpapers** and a popup you can resize from the keyboard *(1.9+)*.
-- **Favourites tab and colour labels** for notes, kept in NoteSearch only *(1.12+)*.
+- **Favourites tab and colour labels** for notes, kept in NoteHawk only *(1.12+)*.
 - **Categories** you make yourself (Work, Home, Bills…), in a sidebar: click to browse, drag a note to move it
   *(1.15+)*.
 - **Right-click menu** on notes: open, star, colour, category, hide, jump to the same folder or hashtag, copy
@@ -98,4 +101,4 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 ## License
 
 This documentation is © 2026 giridharmb and licensed under [CC BY 4.0](LICENSE): you may copy and adapt it if you
-give credit. The license covers the documentation in this repository only, not the NoteSearch app.
+give credit. The license covers the documentation in this repository only, not the NoteHawk app.

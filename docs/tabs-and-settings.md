@@ -73,7 +73,7 @@ sub-folders. Type to filter the list. Press **Return** to list that folder's not
 
 Your last 50 searches, newest first. A search is remembered when you open a note from it, or when you close the
 popup with it still typed. Press **Return** to run one again, **⌘⌫** to remove it. Type to filter the list.
-You can stop NoteSearch remembering searches, or clear them all, in Settings.
+You can stop NoteHawk remembering searches, or clear them all, in Settings.
 
 From version 1.7, **⌘D** saves the highlighted search (and **⇧⌘D** saves the one you are typing on the Search
 tab). Saved searches show a star, stay at the top, and are kept when you clear the history. **⌘D** again unsaves
@@ -102,13 +102,13 @@ one.
 | **Open the popup where I left it** | Off: the popup opens centred on the screen the pointer is on. On: it stays where you last dragged it *(1.8+)* | Off |
 | **Close popup after opening a note** | Off keeps the popup open after Return | On |
 | **Hide popup when it loses focus** | Off keeps the popup visible when you click elsewhere | On |
-| **Launch at login** | Start NoteSearch when you log in | Off |
+| **Launch at login** | Start NoteHawk when you log in | Off |
 | **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
 | **Sync through iCloud Drive** | Keeps stars, colours, hidden notes and saved searches the same on every Mac where this is on. See [Syncing between Macs](#syncing-between-macs-114) *(1.14+)* | Off |
 | **Backup → Export… / Import…** | Saves your stars, colours, categories, hidden notes and saved searches to one file, or adds a file's contents to what you have. Importing never removes anything, and where both have something for the same note, what is on this Mac is kept *(1.19+)* | |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
-| **Hidden notes → Show / Unhide all** | Lists the notes you hid from NoteSearch, or brings them all back *(1.13+)* | |
+| **Hidden notes → Show / Unhide all** | Lists the notes you hid from NoteHawk, or brings them all back *(1.13+)* | |
 | **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |
 
 **All shortcuts** *(1.8+)*: press **⌘/** in the popup for a list of every key.
@@ -124,15 +124,15 @@ size you chose next time. It cannot be made larger than the screen or smaller th
 
 ### Syncing between Macs *(1.14+)*
 
-Your notes already sync through Apple Notes. This setting syncs what NoteSearch adds on top: **stars, colours,
+Your notes already sync through Apple Notes. This setting syncs what NoteHawk adds on top: **stars, colours,
 categories (from 1.15), hidden notes and saved searches**. Themes, wallpaper, popup size, the shortcut and search history stay separate
 on each Mac.
 
 1. On each Mac, make sure iCloud Drive is turned on (System Settings → your name → iCloud → iCloud Drive).
-2. On each Mac, open NoteSearch Settings and turn on **Sync through iCloud Drive**.
+2. On each Mac, open NoteHawk Settings and turn on **Sync through iCloud Drive**.
 
-NoteSearch then syncs every time the popup opens and after every change. A line under the setting shows when it
-last synced. On a new Mac, install NoteSearch, turn the setting on, and your marks appear.
+NoteHawk then syncs every time the popup opens and after every change. A line under the setting shows when it
+last synced. On a new Mac, install NoteHawk, turn the setting on, and your marks appear.
 
 When the Macs do not match:
 
@@ -142,13 +142,13 @@ When the Macs do not match:
 - **Both Macs changed things while apart:** the changes are merged. A star added on one Mac and a colour added on
   the other both survive, and something you removed on one Mac is not brought back by the other. If both changed
   the same note, the Mac that syncs last wins.
-- **"Not synced" appears:** NoteSearch could not use the file (iCloud is still downloading it, iCloud Drive is
+- **"Not synced" appears:** NoteHawk could not use the file (iCloud is still downloading it, iCloud Drive is
   off, or the file is damaged). Nothing is changed on either side; it tries again next time the popup opens.
 
 ### Wallpapers *(1.9+)*
 
 Choose a **Wallpaper** in Settings to give the popup a soft, blurred colour background. None is selected by
-default. The wallpapers are drawn by NoteSearch itself: nothing is downloaded. Your colour theme is laid over the
+default. The wallpapers are drawn by NoteHawk itself: nothing is downloaded. Your colour theme is laid over the
 wallpaper, so text stays readable in every light and dark theme.
 
 ![Aurora wallpaper with the Light theme](images/wallpaper-aurora.png)
@@ -160,7 +160,7 @@ wallpaper, so text stays readable in every light and dark theme.
 *Sunset with the Midnight theme.*
 
 **Updating** *(1.7+)*: when a newer version exists, a notice appears above the results. **Download and open** saves
-the new disk image to your Downloads folder and opens it; drag NoteSearch to Applications as usual.
+the new disk image to your Downloads folder and opens it; drag NoteHawk to Applications as usual.
 
 **VoiceOver** *(1.7+)*: results, tabs and the buttons at the top of the popup have spoken labels.
 

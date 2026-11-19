@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: idea
     attributes:
-      label: What would you like NoteSearch to do?
+      label: What would you like NoteHawk to do?
     validations:
       required: true
   - type: textarea
@@ -28,6 +28,6 @@ body:
         - Nice to have
         - I would use it weekly
         - I would use it daily
-        - I can't use NoteSearch without it
+        - I can't use NoteHawk without it
     validations:
       required: true

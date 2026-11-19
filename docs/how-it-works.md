@@ -1,4 +1,4 @@
-# How NoteSearch works
+# How NoteHawk works
 
 A short, plain-language description of what happens when you search.
 
@@ -10,7 +10,7 @@ The Notes app keeps all of its data in a database file on your Mac:
 ~/Library/Group Containers/group.com.apple.notes/NoteStore.sqlite
 ```
 
-Each time the popup opens (or you press **⌘R**), NoteSearch opens that file **read-only** and asks it for a list
+Each time the popup opens (or you press **⌘R**), NoteHawk opens that file **read-only** and asks it for a list
 of your notes. For every note it collects:
 
 - the title
@@ -21,20 +21,20 @@ of your notes. For every note it collects:
 - whether it is pinned, locked or has a checklist
 - the file names of attachments *(version 1.1 and later)*
 
-By default the text of your notes is not requested at all. For size, NoteSearch asks the database only "how many
+By default the text of your notes is not requested at all. For size, NoteHawk asks the database only "how many
 bytes is this?", not for the bytes themselves.
 
-From version 1.3 you can turn on **Search inside note text** (Settings, or **⌘T**). NoteSearch then also reads the
+From version 1.3 you can turn on **Search inside note text** (Settings, or **⌘T**). NoteHawk then also reads the
 text of each note into memory so that plain words can match it. The text is never written to disk; a matching row
 is only marked "in text", unless you also choose to show the matching line. Locked notes are encrypted and are never read. Text is decoded on all
 processor cores and remembered until a note changes, so reopening the popup re-reads only edited notes. In our
-tests a library of about 3,000 notes loaded with its text in under a fifth of a second. macOS protects this file, which is why NoteSearch needs
+tests a library of about 3,000 notes loaded with its text in under a fifth of a second. macOS protects this file, which is why NoteHawk needs
 [Full Disk Access](getting-started.md#grant-full-disk-access-required-one-time).
 
 ## 2. It searches in memory
 
-The list from step 1 is kept in memory while NoteSearch runs. Nothing is written to disk and no separate index is
-built. Every time you type a character, NoteSearch:
+The list from step 1 is kept in memory while NoteHawk runs. Nothing is written to disk and no separate index is
+built. Every time you type a character, NoteHawk:
 
 1. splits what you typed into terms (words, `#hashtags`, `in:folder` and so on),
 2. checks every note against those terms and gives each match a score,
@@ -49,8 +49,8 @@ Upper/lower case and accents are ignored, so `cafe` finds "Café".
 
 ## 3. Notes opens the note
 
-When you press **Return**, NoteSearch hands the note's internal ID to macOS, and the Notes app opens it.
-NoteSearch never opens, changes or deletes a note itself. Pressing **⌘N** *(1.4+)* likewise asks the Notes app to
+When you press **Return**, NoteHawk hands the note's internal ID to macOS, and the Notes app opens it.
+NoteHawk never opens, changes or deletes a note itself. Pressing **⌘N** *(1.4+)* likewise asks the Notes app to
 create the new note.
 
 ## What is searched, and what is not
@@ -67,16 +67,16 @@ create the new note.
 | The text of locked notes | **No**, never |
 | The contents of attachments | **No** |
 | Notes in Recently Deleted | No |
-| Files and folders elsewhere on your Mac | No. NoteSearch only knows about Apple Notes |
+| Files and folders elsewhere on your Mac | No. NoteHawk only knows about Apple Notes |
 
 ## Keeping up to date
 
-NoteSearch re-reads the list every time the popup opens, so new, renamed and deleted notes appear without you
+NoteHawk re-reads the list every time the popup opens, so new, renamed and deleted notes appear without you
 doing anything. Notes created on another device appear once the Notes app on this Mac has synced them.
 
 ## A note on macOS updates
 
-The Notes database is Apple's own format and is not documented. NoteSearch checks which fields exist before
+The Notes database is Apple's own format and is not documented. NoteHawk checks which fields exist before
 reading, so it tolerates the usual changes between macOS versions, but a major macOS update could require a
-NoteSearch update. If your notes stop loading after updating macOS, please
+NoteHawk update. If your notes stop loading after updating macOS, please
 [open an issue](../../../issues/new/choose).

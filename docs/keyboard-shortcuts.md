@@ -39,7 +39,7 @@
 | **⌘R** | Reload notes |
 | **Esc** | Clear the selection of several notes if there is one, then the search box; if that is empty, close the popup |
 | **⌘W** | Close the popup |
-| **⌘Q** | Quit NoteSearch |
+| **⌘Q** | Quit NoteHawk |
 
 The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 
@@ -76,7 +76,7 @@ Right-click a note for a menu *(1.15+)*:
 | **Star** / **Remove Star** | The same as ⌘D |
 | **Colour** | Pick one of the seven colours, or None |
 | **Category** | Move the note to one of your categories, take it out of its category, or make a new one |
-| **Hide from NoteSearch** | Keeps the note out of every list. See [Hiding notes](search-syntax.md#hiding-notes-113) |
+| **Hide from NoteHawk** | Keeps the note out of every list. See [Hiding notes](search-syntax.md#hiding-notes-113) |
 | **Notes in "folder"** | Lists the notes in the same folder |
 | **Notes Tagged** | Lists the notes with one of this note's hashtags, or with all of them |
 | **Notes Marked "colour"** / **Notes in Category** | Lists the other notes with the same colour or category |
@@ -99,10 +99,10 @@ to 1.15 or later. Everything it offers was, and is, also available from the keyb
 | Click | Show or hide the popup |
 | Right-click | Menu with Search Notes, Reload Notes, Settings and Quit |
 
-Opening NoteSearch again from Applications or Spotlight also shows the popup.
+Opening NoteHawk again from Applications or Spotlight also shows the popup.
 
 ## From other apps *(1.8+)*
 
-Opening a link of the form `notesearch://search?q=budget` shows the popup with that search already typed. Use it
+Opening a link of the form `notehawk://search?q=budget` shows the popup with that search already typed. Use it
 from Raycast, Alfred, Shortcuts or the `open` command. Spaces are written `%20` and `#` is written `%23`, as in
-`notesearch://search?q=plan%20%23work`.
+`notehawk://search?q=plan%20%23work`. Before version 1.20 the link starts with `notesearch://`, which still works.
