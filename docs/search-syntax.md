@@ -206,10 +206,30 @@ OR also works for plain words and other terms, for example `invoice|receipt` or 
 
 ## Autocomplete
 
+Suggestions appear under the search box as you type.
+
 - Type `#` to see hashtags that exist in your notes, most used first. Keep typing to narrow the list.
 - Type `in:` to see your folders.
 - Press **Tab** to accept the first (highlighted) suggestion, or click any suggestion.
-- Autocomplete also works after `|`, so you can build `#work|#ideas` with two Tab presses.
+- Autocomplete also works after `|`, so you can build `#work|#ideas` with two Tab presses, and after `-`.
+
+From version 1.17 it also completes:
+
+| You type | It offers |
+| --- | --- |
+| Two or more letters of a word, such as `bu` | Words from your note titles that start with them, most common first |
+| `is:` | favorite, pinned, attachment, checklist, untagged, shared, locked, hidden |
+| `cat:` | Your categories, plus none and any |
+| `color:` | The seven colours, plus any and none |
+| `account:` | Your account names |
+| `updated:` or `created:` | today, yesterday, 7d, 30d, 3m, 1y |
+
+![Completing a word from note titles](images/autocomplete-words.png)
+
+*Typing `pl` offers `plan`, a word found in note titles.*
+
+Because a word can now be completed, **Tab** completes it when a suggestion is showing. With no suggestion, Tab
+moves to the next tab as before.
 
 ![Hashtag autocomplete](images/autocomplete.png)
 

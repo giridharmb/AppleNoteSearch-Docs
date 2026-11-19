@@ -23,7 +23,8 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 
 - **Search as you type** by note title, hashtag, folder or account, with fuzzy matching and typo tolerance.
 - **Combine filters**: several hashtags (AND / OR / exclude) together with title words.
-- **Autocomplete** for hashtags and folders that already exist in your notes.
+- **Autocomplete** for hashtags, folders, words from your note titles, and every filter *(title words and
+  filters from 1.17)*.
 - **Tabs** for the most recently updated, most recently created and largest notes, plus a list of all hashtags.
 - **Keyboard first**: a global shortcut, arrow keys and Return. No mouse needed.
 - **Search inside note text, if you want it**: off by default; one switch (or ⌘T) turns it on *(1.3+)*.
