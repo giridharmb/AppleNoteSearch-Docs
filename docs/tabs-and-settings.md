@@ -97,6 +97,7 @@ one.
 | **Search inside note text** | Also match plain words against the text of your notes. See [Privacy](privacy.md) *(1.3+)* | Off |
 | **Show the matching line for text matches** | While searching inside note text, shows the one line that matched under each result *(1.4+)* | Off |
 | **Added to every search** | Search terms applied to every list, for example `-in:archive` to hide a folder. See [Search syntax](search-syntax.md#hiding-a-folder-or-an-account-everywhere-17) *(1.7+)* | Empty |
+| **Show the categories sidebar** | The list of your categories on the left of the note lists. **⌘B** switches it too. See [Categories](search-syntax.md#categories-115) *(1.15+)* | On |
 | **Hide locked notes** | Keeps the titles of locked notes out of every list *(1.8+)* | Off |
 | **Open the popup where I left it** | Off: the popup opens centred on the screen the pointer is on. On: it stays where you last dragged it *(1.8+)* | Off |
 | **Close popup after opening a note** | Off keeps the popup open after Return | On |
@@ -123,7 +124,7 @@ size you chose next time. It cannot be made larger than the screen or smaller th
 ### Syncing between Macs *(1.14+)*
 
 Your notes already sync through Apple Notes. This setting syncs what NoteSearch adds on top: **stars, colours,
-hidden notes and saved searches**. Themes, wallpaper, popup size, the shortcut and search history stay separate
+categories (from 1.15), hidden notes and saved searches**. Themes, wallpaper, popup size, the shortcut and search history stay separate
 on each Mac.
 
 1. On each Mac, make sure iCloud Drive is turned on (System Settings → your name → iCloud → iCloud Drive).

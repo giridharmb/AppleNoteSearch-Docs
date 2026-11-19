@@ -35,7 +35,10 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
   ⌘/ *(1.8+)*.
 - **Six optional wallpapers** and a popup you can resize from the keyboard *(1.9+)*.
 - **Favourites tab and colour labels** for notes, kept in NoteSearch only *(1.12+)*.
-- **Right-click menu** on notes: open, star, colour, hide, jump to the same folder or hashtag, copy *(1.13+)*.
+- **Categories** you make yourself (Work, Home, Bills…), in a sidebar: click to browse, drag a note to move it
+  *(1.15+)*.
+- **Right-click menu** on notes: open, star, colour, category, hide, jump to the same folder or hashtag, copy
+  *(1.15+)*.
 - **Optional iCloud sync** of stars, colours, hidden notes and saved searches between your Macs *(1.14+)*.
 - **Private**: by default only titles and metadata are read. Note text is read only if you turn that on, is kept
   in memory only, and is never saved, and is shown only if you ask for the matching line. The only network use is an optional daily
@@ -54,6 +57,7 @@ Step-by-step instructions with pictures are in [Getting started](docs/getting-st
 | ![Search history](docs/images/history.png) <br> History of past searches | ![Tags tab](docs/images/tags.png) <br> Every hashtag with its note count (Midnight theme) |
 | ![Settings](docs/images/settings.png) <br> Settings (Notes Yellow theme, Sand wallpaper) | ![Sort, Show and Narrow buttons](docs/images/buttons.png) <br> One-click sorting, filters and narrowing |
 | ![Favourites tab](docs/images/favourites.png) <br> Favourites: starred and colour-labelled notes | ![Colour filter](docs/images/colours.png) <br> Notes marked orange or green |
+| ![Categories sidebar](docs/images/categories.png) <br> Your own categories in the sidebar | |
 
 ## Documentation
 

@@ -34,7 +34,8 @@ From version 1.14 there is an optional setting, **Sync through iCloud Drive**, w
 it on. While it is on:
 
 - NoteSearch keeps one file, `NoteSearch-sync.json`, in a **NoteSearch** folder in your iCloud Drive.
-- The file holds your stars, colours, hidden notes and saved searches. Notes are listed by internal ID only. It
+- The file holds your stars, colours, categories (their names and icons, from 1.15), hidden notes and saved
+  searches. Notes are listed by internal ID only. It
   contains **no note titles and no note text**. Your saved searches are stored as you typed them.
 - Apple's iCloud carries the file to your other Macs, like any other file in iCloud Drive. NoteSearch itself
   sends it nowhere and makes no network connection for this.
@@ -72,6 +73,7 @@ Only its own preferences, on your Mac:
 - Your last 50 searches, for the History tab *(1.3+)*. You can turn this off or clear it in Settings.
 - Your saved searches, and the terms in **Added to every search** *(1.7+)*.
 - The colour you gave each note, and which notes you hid, by internal ID *(1.12+, 1.13+)*.
+- Your categories (name and icon) and which category each note is in, by internal ID *(1.15+)*.
 - Identifiers of the notes you starred as favourites *(1.4+)*. Internal IDs again, not titles or text.
 - The latest version number seen by the update check, and when it last ran *(1.4+)*.
 

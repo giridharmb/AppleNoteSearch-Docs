@@ -16,6 +16,7 @@ ignored, so `cafe` finds "Café".
 | `is:checklist` | Notes that contain a checklist | |
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
 | `color:name` | Notes you gave that colour; `color:any` / `color:none` for coloured / uncoloured notes *(1.12+)* | `color:orange` |
+| `cat:name` | Notes in that category; `cat:none` / `cat:any` for notes without / with one *(1.15+)* | `cat:work` |
 | `is:hidden` | Notes you hid from NoteSearch *(1.13+)* | |
 | `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
 | `is:untagged` | Notes with no hashtags *(1.7+)* | |
@@ -97,9 +98,31 @@ Press **⇧⌘D** to save the search you are typing. Saved searches appear with 
 [History tab](tabs-and-settings.md#history-13) and are never pushed out by newer searches. On the History tab,
 **⌘D** saves or unsaves the highlighted entry and **Return** runs it.
 
+## Categories *(1.15+)*
+
+![The categories sidebar, showing the Work category](images/categories.png)
+
+Categories are your own groups for notes, such as Work, Home and Bills. They are listed in a sidebar on the left,
+each with an icon and the number of notes in it. A note is in one category at a time. Like stars and colours,
+categories are kept by NoteSearch and are **not** written to Apple Notes.
+
+- **See a category's notes:** click it. Click it again, or **All Notes**, to go back. **No Category** lists the
+  notes you have not filed yet.
+- **Move a note:** drag it onto a category, or right-click it and choose **Category**, or press **⌘M** and then
+  the category's number.
+- **New category:** click **New Category…** at the bottom of the sidebar, type a name and pick an icon.
+- **Rename, change the icon, or delete:** right-click the category. Deleting a category does not touch its notes;
+  they simply have no category afterwards.
+- **In a search:** `cat:work` (`category:` also works) combines with any other term, for example
+  `cat:work updated:7d`. `cat:none` finds notes with no category and `cat:any` those with one.
+- **Hide the sidebar:** press **⌘B**, or use the setting **Show the categories sidebar**.
+
+Version 1.15 starts you off with Work, Home and Bills; rename or delete them as you like.
+
 ## Hiding notes *(1.13+)*
 
-Right-click a note and choose **Hide from NoteSearch** to keep it out of every list. The note is untouched in
+Right-click a note and choose **Hide from NoteSearch** to keep it out of every list (this needs version 1.15;
+the menu did not open in 1.13 and 1.14). The note is untouched in
 Apple Notes; only NoteSearch stops showing it.
 
 - Search `is:hidden` to see the notes you have hidden. Right-click one there and choose **Show in NoteSearch
@@ -124,7 +147,7 @@ Apple Notes, so they do not appear in the Notes app or on your other devices.
 - **Colour** *(1.12+)*: press **⌃1 … ⌃7** for red, orange, yellow, green, blue, purple or grey. The note's icon
   takes that colour. Press the same key again, or **⌃0**, to remove it. A note has one colour at a time.
 
-From 1.12 you can also right-click a note and choose **Star** or **Colour**.
+From 1.15 you can also right-click a note and choose **Star** or **Colour**.
 
 To find marked notes:
 

@@ -27,6 +27,8 @@
 | **⌘D** | Star or unstar the selected note as a favourite *(1.4+)* |
 | **⌃1 … ⌃7** | Give the selected note a colour: red, orange, yellow, green, blue, purple, grey. The same key again removes it *(1.12+)* |
 | **⌃0** | Remove the selected note's colour *(1.12+)* |
+| **⌘M** | Move the selected note to a category: a list opens, press its number (1–9), or 0 for none *(1.15+)* |
+| **⌘B** | Show or hide the categories sidebar *(1.15+)* |
 | **⇧⌘D** | Save the search you are typing. It appears starred at the top of the History tab *(1.7+)* |
 | **⌘N** | Create a new note in Notes, titled with whatever you have typed. macOS asks for permission the first time *(1.4+)* |
 | **⇧⌘C** | Copy a link to the selected note. Opening the link shows that note in Notes |
@@ -62,23 +64,28 @@ The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 | **⌘D** | Save or unsave the highlighted search *(1.7+)* |
 | **⌘⌫** | Remove the highlighted search from the history |
 
-## With the mouse *(1.12+)*
+## With the mouse *(1.15+)*
 
-Right-click a note for a menu. From version 1.13 it offers:
+Right-click a note for a menu *(1.15+)*:
 
 | Menu item | What it does |
 | --- | --- |
 | **Open in Notes** / **Open and Keep This Popup** | The same as Return and ⌘Return |
 | **Star** / **Remove Star** | The same as ⌘D |
 | **Colour** | Pick one of the seven colours, or None |
+| **Category** | Move the note to one of your categories, take it out of its category, or make a new one |
 | **Hide from NoteSearch** | Keeps the note out of every list. See [Hiding notes](search-syntax.md#hiding-notes-113) |
 | **Notes in "folder"** | Lists the notes in the same folder |
 | **Notes Tagged** | Lists the notes with one of this note's hashtags, or with all of them |
-| **Notes Marked "colour"** | For a coloured note: lists the others with that colour |
+| **Notes Marked "colour"** / **Notes in Category** | Lists the other notes with the same colour or category |
 | **Copy** | Link, title or Markdown link |
 
-Nothing in this menu changes the note in Apple Notes. (In 1.12 the menu has only Star, Colour and the copy
-actions.)
+Right-click a category in the sidebar to show its notes, rename it, change its icon or delete it.
+
+Nothing in these menus changes the note in Apple Notes.
+
+**Versions 1.12 to 1.14:** the right-click menu on notes was announced for these versions but did not open. Update
+to 1.15 or later. Everything it offers was, and is, also available from the keyboard.
 
 ## Menu-bar icon
 
