@@ -57,7 +57,7 @@ Only its own preferences, on your Mac:
   IDs, not titles or text.
 - Your last 50 searches, for the History tab *(1.3+)*. You can turn this off or clear it in Settings.
 - Your saved searches, and the terms in **Added to every search** *(1.7+)*.
-- The colour you gave each note, by internal ID *(1.12+)*.
+- The colour you gave each note, and which notes you hid, by internal ID *(1.12+, 1.13+)*.
 - Identifiers of the notes you starred as favourites *(1.4+)*. Internal IDs again, not titles or text.
 - The latest version number seen by the update check, and when it last ran *(1.4+)*.
 

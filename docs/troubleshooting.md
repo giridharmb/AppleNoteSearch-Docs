@@ -36,6 +36,8 @@ icon may be hidden behind the notch; the shortcut still works.
   account names and attachment file names are matched. From version 1.3, turn on **Search inside note text** in
   Settings or press **⌘T**.
 - **Notes in Recently Deleted are not listed.**
+- **Settings can hide notes.** Check **Hidden notes**, **Added to every search**, **Hide locked notes** and
+  **Notes shown on the Search tab** in Settings *(1.7+ to 1.13+)*.
 - Notes that belong to a mail account (Gmail, Exchange, IMAP) rather than iCloud or On My Mac are not supported.
 
 If notes are still missing, open Settings (**⌘,**), click **Copy diagnostics**, and paste the result into a

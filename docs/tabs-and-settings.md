@@ -105,6 +105,7 @@ one.
 | **Check for updates once a day** | Asks GitHub for the latest version number and shows a notice when a newer one exists. Nothing about you or your notes is sent *(1.4+)* | On |
 | **Remember searches in the History tab** | Off stops new searches being remembered *(1.3+)* | On |
 | **Search history → Clear history** | Forgets all remembered searches *(1.3+)* | |
+| **Hidden notes → Show / Unhide all** | Lists the notes you hid from NoteSearch, or brings them all back *(1.13+)* | |
 | **Notes missing? → Copy diagnostics** | Copies a short report of counts about your Notes library to the clipboard, to paste into a bug report. It contains no note titles, folder names or account names *(1.2+)* | |
 
 **All shortcuts** *(1.8+)*: press **⌘/** in the popup for a list of every key.

@@ -16,6 +16,7 @@ ignored, so `cafe` finds "Café".
 | `is:checklist` | Notes that contain a checklist | |
 | `is:attachment` | Notes that have at least one attachment (`has:attachment` also works) *(1.1+)* | |
 | `color:name` | Notes you gave that colour; `color:any` / `color:none` for coloured / uncoloured notes *(1.12+)* | `color:orange` |
+| `is:hidden` | Notes you hid from NoteSearch *(1.13+)* | |
 | `is:favorite` | Notes you starred with **⌘D** (`is:fav` also works) *(1.4+)* | |
 | `is:untagged` | Notes with no hashtags *(1.7+)* | |
 | `is:shared` | Notes you share with other people, or that sit directly in a shared folder *(1.7+)* | |
@@ -95,6 +96,17 @@ is remembered.
 Press **⇧⌘D** to save the search you are typing. Saved searches appear with a star at the top of the
 [History tab](tabs-and-settings.md#history-13) and are never pushed out by newer searches. On the History tab,
 **⌘D** saves or unsaves the highlighted entry and **Return** runs it.
+
+## Hiding notes *(1.13+)*
+
+Right-click a note and choose **Hide from NoteSearch** to keep it out of every list. The note is untouched in
+Apple Notes; only NoteSearch stops showing it.
+
+- Search `is:hidden` to see the notes you have hidden. Right-click one there and choose **Show in NoteSearch
+  Again** to bring it back.
+- Settings shows how many notes are hidden, with **Show** and **Unhide all** buttons.
+
+To hide a whole folder or account instead, see the next section.
 
 ## Hiding a folder or an account everywhere *(1.7+)*
 

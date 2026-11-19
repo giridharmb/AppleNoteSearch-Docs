@@ -64,7 +64,21 @@ The usual text shortcuts (⌘A, ⌘C, ⌘V, ⌘X, ⌘Z) work in the search box.
 
 ## With the mouse *(1.12+)*
 
-Right-click a note for a menu with **Star**, **Colour**, and the three copy actions.
+Right-click a note for a menu. From version 1.13 it offers:
+
+| Menu item | What it does |
+| --- | --- |
+| **Open in Notes** / **Open and Keep This Popup** | The same as Return and ⌘Return |
+| **Star** / **Remove Star** | The same as ⌘D |
+| **Colour** | Pick one of the seven colours, or None |
+| **Hide from NoteSearch** | Keeps the note out of every list. See [Hiding notes](search-syntax.md#hiding-notes-113) |
+| **Notes in "folder"** | Lists the notes in the same folder |
+| **Notes Tagged** | Lists the notes with one of this note's hashtags, or with all of them |
+| **Notes Marked "colour"** | For a coloured note: lists the others with that colour |
+| **Copy** | Link, title or Markdown link |
+
+Nothing in this menu changes the note in Apple Notes. (In 1.12 the menu has only Star, Colour and the copy
+actions.)
 
 ## Menu-bar icon
 
