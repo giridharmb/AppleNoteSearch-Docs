@@ -21,6 +21,8 @@
 | **⌘T** | Switch between matching titles only and titles plus note text *(1.3+)* |
 | **⌘S** | Change the sort order: best match, last updated, newest, largest, A–Z *(1.4+; A–Z from 1.8)* |
 | **⌥1 … ⌥9** | Apply the first to ninth **Narrow** button above the results *(1.8+)* |
+| **⌘+ / ⌘−** | Make the popup larger / smaller. It stays centred and remembers the size *(1.9+)* |
+| **⌘0** | Return the popup to its default size *(1.9+)* |
 | **⌘/** | Show or hide the list of all shortcuts *(1.8+)* |
 | **⌘D** | Star or unstar the selected note as a favourite *(1.4+)* |
 | **⇧⌘D** | Save the search you are typing. It appears starred at the top of the History tab *(1.7+)* |
